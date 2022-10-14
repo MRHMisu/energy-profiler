@@ -1,0 +1,12 @@
+Logfile will include the
+    elapsed timed
+    package power limit
+    processor frequency
+    GT frequency
+    processor temperature
+    average and cumulative power of the processor
+
+Processor Energy (Total energy of the processor) = IA Energy + GT Energy (if applicable) + Others (not measured)
+IA Energy (Energy of the CPU/processor cores)
+GT Energy (Energy of the processor graphics) – If applicable , some processors for desktops and servers don’t have it or may have use discrete graphics
+RDTSC — Read Time-Stamp Counter
