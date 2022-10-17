@@ -1,4 +1,30 @@
 import pandas
+import statistics
+import math
+
+
+def get_mean(data):
+    n = len(data)
+    mean = sum(data) / n
+    return mean
+
+
+def get_variance(data):
+    n = len(data)
+    mean = sum(data) / n
+    deviations = [(x - mean) ** 2 for x in data]
+    variance = sum(deviations) / n
+    return variance
+
+
+def get_standard_deviation(data):
+    var = get_variance(data)
+    std_dev = math.sqrt(var)
+    return std_dev
+
+
+def get_median(data):
+    return statistics.median(data)
 
 
 def get_overall_result_for_a_single_run(file_path):
@@ -13,18 +39,22 @@ def get_overall_result_for_a_single_run(file_path):
 
 
 def get_overall_result_for_all_run(base_path, testcase_name, num_run):
-    average_energy_metrics = {'testcase': testcase_name, 'elapsed_time': 0, 'average_power': 0, 'energy_consumed': 0}
+    overall_energy_metrics = {'testcase': testcase_name, 'elapsed_time': 0, 'average_power': 0, 'energy_consumed': 0}
+    time = []
+    power = []
+    energy = []
+
     for i in range(1, num_run + 1):
         file_path = base_path + "/" + testcase_name + "-" + str(i) + ".csv"
         energy_metrics = get_overall_result_for_a_single_run(file_path)
-        average_energy_metrics['elapsed_time'] = average_energy_metrics['elapsed_time'] + energy_metrics['time']
-        average_energy_metrics['average_power'] = average_energy_metrics['average_power'] + energy_metrics['power']
-        average_energy_metrics['energy_consumed'] = average_energy_metrics['energy_consumed'] + energy_metrics['energy']
+        time.append(energy_metrics['time'])
+        power.append(energy_metrics['power'])
+        energy.append(energy_metrics['energy'])
 
-    average_energy_metrics['elapsed_time'] = average_energy_metrics['elapsed_time'] / num_run
-    average_energy_metrics['average_power'] = average_energy_metrics['average_power'] / num_run
-    average_energy_metrics['energy_consumed'] = average_energy_metrics['energy_consumed'] / num_run
-    return average_energy_metrics
+    overall_energy_metrics['elapsed_time'] = get_median(time)
+    overall_energy_metrics['average_power'] = get_median(power)
+    overall_energy_metrics['energy_consumed'] = get_median(energy)
+    return overall_energy_metrics
 
 
 def get_all_testcase_names(path):
@@ -112,12 +142,14 @@ def write_aggregate_results(all_merged, path):
 
 
 if __name__ == '__main__':
-    testcase_name_path = "/test-cases.txt"
-    energy_reports_base_path = "/result"
+    project_name = "commons-lang"
+    testcase_name_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/test-cases.txt"
+    result_base_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/energy-log"
+    energy_reports_path = result_base_path + "/" + project_name
     number_of_run = 5
-    average_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/result/average_result.csv"
-    aggregate_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/result/aggregate_result.csv"
+    average_save_path = energy_reports_path + "/" + project_name + "-" + "average_result.csv"
+    aggregate_save_path = energy_reports_path + "/" + project_name + "-" + "aggregate_result.csv"
 
-    get_average_energy_result(testcase_name_path, number_of_run, energy_reports_base_path, average_save_path)
-    merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_base_path,
+    get_average_energy_result(testcase_name_path, number_of_run, energy_reports_path, average_save_path)
+    merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_path,
                                     aggregate_save_path)
