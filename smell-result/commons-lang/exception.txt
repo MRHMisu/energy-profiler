@@ -1,0 +1,2 @@
+https://github.com/apache/commons-lang/blob/master/src/test/java/org/apache/commons/lang3/compare/ComparableUtilsTest.java
+https://github.com/apache/commons-lang/blob/master/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
