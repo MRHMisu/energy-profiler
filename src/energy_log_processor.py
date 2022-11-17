@@ -39,7 +39,9 @@ def get_overall_result_for_a_single_run(file_path):
 
 
 def get_overall_result_for_all_run(base_path, testcase_name, num_run):
-    overall_energy_metrics = {'testcase': testcase_name, 'elapsed_time': 0, 'average_power': 0, 'energy_consumed': 0}
+    overall_energy_metrics = {'testcase': testcase_name, 'median_elapsed_time': 0, 'median_power': 0,
+                              'median_energy_consumed': 0, 'average_elapsed_time': 0, 'average_power': 0,
+                              'average_energy_consumed': 0}
     time = []
     power = []
     energy = []
@@ -51,37 +53,58 @@ def get_overall_result_for_all_run(base_path, testcase_name, num_run):
         power.append(energy_metrics['power'])
         energy.append(energy_metrics['energy'])
 
-    overall_energy_metrics['elapsed_time'] = get_median(time)
-    overall_energy_metrics['average_power'] = get_median(power)
-    overall_energy_metrics['energy_consumed'] = get_median(energy)
+    overall_energy_metrics['median_elapsed_time'] = get_median(time)
+    overall_energy_metrics['median_power'] = get_median(power)
+    overall_energy_metrics['median_energy_consumed'] = get_median(energy)
+    overall_energy_metrics['average_elapsed_time'] = get_mean(time)
+    overall_energy_metrics['average_power'] = get_mean(power)
+    overall_energy_metrics['average_energy_consumed'] = get_mean(energy)
+
     return overall_energy_metrics
 
 
-def get_all_testcase_names(path):
+def get_all_testcase_names_and_loc(path):
+    name_loc = {}
     with open(path, "r") as file:
-        lines = file.readlines()
-    return lines
+        lines = set(file.read().splitlines())
+        for line in lines:
+            name = line.split(",")[0]
+            loc = line.split(",")[1]
+            name_loc[name] = loc
+    return name_loc
 
 
-def get_average_energy_result(testcase_path, num_of_run, energy_reports_path, save_path):
+def get_average_energy_result(testcase_path, num_of_run, eng_report_path, save_path):
     testcase = []
-    time = []
-    power = []
-    energy = []
+    loc = []
+    average_elapsed_time = []
+    average_power = []
+    average_energy_consumed = []
 
-    testcases_names = get_all_testcase_names(testcase_path)
-    for tc in testcases_names:
-        avg_result = get_overall_result_for_all_run(energy_reports_path, tc, num_of_run)
+    median_elapsed_time = []
+    median_power = []
+    median_energy_consumed = []
+
+    testcases_names_loc = get_all_testcase_names_and_loc(testcase_path)
+    for tc in testcases_names_loc:
+        avg_result = get_overall_result_for_all_run(eng_report_path, tc, num_of_run)
         testcase.append(avg_result['testcase'])
-        time.append(avg_result['elapsed_time'])
-        power.append(avg_result['average_power'])
-        energy.append(avg_result['energy_consumed'])
-
+        loc.append(testcases_names_loc[tc])
+        median_elapsed_time.append(avg_result['median_elapsed_time'])
+        median_power.append(avg_result['median_power'])
+        median_energy_consumed.append(avg_result['median_energy_consumed'])
+        average_elapsed_time.append(avg_result['average_elapsed_time'])
+        average_power.append(avg_result['average_power'])
+        average_energy_consumed.append(avg_result['average_energy_consumed'])
     data = {
         'testcase': testcase,
-        'elapsed_time': time,
-        'average_power': power,
-        'energy_consumed': energy
+        'loc': loc,
+        'median_elapsed_time': median_elapsed_time,
+        'median_power': median_power,
+        'median_energy_consumed': median_energy_consumed,
+        # 'average_elapsed_time': average_elapsed_time,
+        # 'average_power': average_power,
+        # 'average_energy_consumed': average_energy_consumed
     }
     df = pandas.DataFrame(data)
     df.to_csv(save_path, index=False)
@@ -118,10 +141,10 @@ def get_header():
 
 
 def merge_energy_result_for_all_run(testcase_path, num_of_run, energy_reports_path, save_path):
-    testcases_names = get_all_testcase_names(testcase_path)
+    testcases_names_loc = get_all_testcase_names_and_loc(testcase_path)
     all_merged = []
     all_merged.append(get_header())
-    for tc in testcases_names:
+    for tc in testcases_names_loc:
         aggregated = []
         for i in range(1, num_of_run + 1):
             file_path = energy_reports_path + "/" + tc + "-" + str(i) + ".csv"
@@ -142,14 +165,14 @@ def write_aggregate_results(all_merged, path):
 
 
 if __name__ == '__main__':
-    project_name = "commons-lang"
-    testcase_name_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/test-cases.txt"
-    result_base_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/energy-log"
-    energy_reports_path = result_base_path + "/" + project_name
+    project_name = "gson"
+    testcase_name_path = "/Users/mrhmisu/energy-test/dataset/testcase/with-loc/gson-testcases-loc.txt"
+    result_base_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/" + project_name
+    energy_reports_path = "/Users/mrhmisu/energy-test/dataset/energy-log/" + project_name
     number_of_run = 5
-    average_save_path = energy_reports_path + "/" + project_name + "-" + "average_result.csv"
-    aggregate_save_path = energy_reports_path + "/" + project_name + "-" + "aggregate_result.csv"
+    average_save_path = result_base_path + "/" + project_name + "-" + "energy-median-average.csv"
+    # aggregate_save_path = energy_reports_path + "/res/" + project_name + "-" + "aggregate_result.csv"
 
     get_average_energy_result(testcase_name_path, number_of_run, energy_reports_path, average_save_path)
-    merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_path,
-                                    aggregate_save_path)
+    # merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_path,
+    #                                 aggregate_save_path)
