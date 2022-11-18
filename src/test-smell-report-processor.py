@@ -28,17 +28,76 @@ def process_report(report_name, prefix):
 # testSmellLineBegin row[9]
 # testSmellLineEnd row[10]
 
+def class_to_testcase_map_transform(class_case_map):
+    testcases = {}
+    for cls in class_case_map:
+        cases = class_case_map[cls]
+        for c in cases:
+            case = cases[c]
+            testcases[case['mvn_run']] = {
+                'test_class': cls,
+                'smell_count': count_total_smell(case['smells']),
+                'smells': transform_smell_obj_to_sort_form(case['smells'])
+            }
+
+    return testcases
+
+
+def count_total_smell(smells):
+    count = 0
+    for s in smells:
+        count += smells[s]
+    return count
+
+
+def get_smell_map_name_to_sort():
+    smell_names = ['AR', 'ET', 'MG', 'ST', 'UT', 'RA', 'DepT', 'MNT', 'CTL', 'EmT', 'GF', 'IgT',
+                   'SE', 'VT', 'DT', 'RO', 'DA', 'EH', 'CI', 'RP', 'LT']
+    smell_name_map = {
+        'Assertion Roulette': "AR",
+        'Eager Test': "ET",
+        'Mystery Guest': "MG",
+        'Sleepy Test': "ST",
+        'Unknown Test': "UT",
+        'Redundant Assertion': "RA",
+        'Dependent Test': "DepT",
+        'Magic Number Test': "MNT",
+        'Conditional Test Logic': "CTL",
+        'EmptyTest': "EmT",
+        'General Fixture': "GF",
+        'IgnoredTest': "IgT",
+        'Sensitive Equality': "SE",
+        'Verbose Test': "VT",
+        'Default Test': "DT",
+        'Resource Optimism': "RO",
+        'Duplicate Assert': "DA",
+        'Exception Catching Throwing': "EH",
+        'Constructor Initialization': "CI",
+        'Print Statement': "RP",
+        'Lazy Test': "LT"
+    }
+    return smell_name_map
+
+
+def transform_smell_obj_to_sort_form(smell_map):
+    transformed_map = {}
+    smell_name_map = get_smell_map_name_to_sort()
+    for sm in smell_map:
+        transformed_map[smell_name_map[sm]] = smell_map[sm]
+
+    return transformed_map
+
+
 def process_each_row(path_prefix, row, test_class_map):
     test_file_name = row[1].strip()
     production_file_name = row[3].strip()
     test_class_name = test_file_name.strip().split(".java")[0]
     try:
-        production_class_fqn = production_file_name.split(path_prefix)[1].replace("/", ".").split(".java")[0]
+        production_class_fqn = production_file_name.split(path_prefix)[1].replace("/", ".").split(".java")[0].strip()
         package_name_fqn = ".".join(production_class_fqn.split(".")[0: len(production_class_fqn.split(".")) - 1])
-        test_class_fqn = package_name_fqn + "." + test_file_name
+        test_class_fqn = package_name_fqn.strip() + "." + test_file_name.strip()
         test_smell_name = row[7].strip()
         smelly_test_case_list = row[8].split(",")  # list of testcases seperated by comma
-
         smelly_test_cases_map = make_test_case_object(test_class_fqn, test_smell_name, smelly_test_case_list)
         populate_test_classes(test_class_map, test_class_fqn, smelly_test_cases_map)
     except:
@@ -109,38 +168,6 @@ def save_to_json(map, path):
     print("Saving Done")
 
 
-def save_to_testcaes_in_csv(map, path):
-    # Assertion Roulette
-    # Eager Test
-    # Mystery Guest
-    # Sleepy Test
-    # Unknown Test
-    # Redundant Assertion
-    # Dependent Test
-    # Magic Number Test
-    # Conditional Test Logic
-    # EmptyTest
-    # General Fixture
-    # IgnoredTest
-    # Sensitive Equality
-    # Verbose Test
-    # Default Test
-    # Resource Optimism
-    # Duplicate Assert
-    # Exception Catching Throwing
-    # Constructor Initialization
-    # Print Statement
-    # Lazy Test
-    smell_names = ['AR', 'ET', 'MG', 'ST', 'UT', 'RA', 'DepT', 'MNT', 'CTL', 'EmT', 'GF', 'IgT',
-                   'SE', 'VT', 'DT', 'RO', 'DA', 'EH', 'CI', 'RP', 'LT']
-    test_cases = []
-    for m in map:
-        test_class = map[m]
-        for tc in test_class:
-            case = test_class[tc]['mvn_run']
-            complete_line = case + ","
-
-
 def write_smelly_test_results(path, test_list):
     content = '\n'.join(test_list)
     with open(path, 'w') as file:
@@ -148,15 +175,17 @@ def write_smelly_test_results(path, test_list):
 
 
 if __name__ == '__main__':
-    project_prefix_path = "/Users/mrhmisu/.jnose_projects/gson/gson/src/main/java/"
-    smell_by_testsmell = "/Users/mrhmisu/energy-test/dataset/smell/gson/gson-smell-by-testsmell.csv"
+    project_prefix_path = "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/"
+    smell_by_testsmell = "/Users/mrhmisu/energy-test/dataset/smell/jsoup/jsoup-smell-by-testsmell.csv"
 
-    output_smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/gson/gson-testcase-smell-map.json"
-    smelly_test_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/gson/gson-smelly-testcase.txt"
+    output_smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-testcase-smell-map.json"
+    smelly_test_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-smelly-testcase.txt"
 
-    testclasss_map = process_report(smell_by_testsmell, project_prefix_path)
-    test_list = make_smelly_test_list(testclasss_map)
-    # save_to_json(testclasss_map, output_smell_map_file)
+    testclasss_case_map = process_report(smell_by_testsmell, project_prefix_path)
+    testcase_map = class_to_testcase_map_transform(testclasss_case_map)
+    save_to_json(testcase_map, output_smell_map_file)
+    # test_list = make_smelly_test_list(testclasss_map)
+
     # write_smelly_test_results(smelly_test_save_path, test_list)
     # save_to_testcaes_in_csv(testclasss_map, output_smell_map_file)
     print("done")

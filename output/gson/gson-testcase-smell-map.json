@@ -1,0 +1,3693 @@
+{
+  "com.google.gson.JsonStreamParserTest#testCallingNextBeyondAvailableInput": {
+    "test_class": "com.google.gson.JsonStreamParserTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonStreamParserTest#testNoSideEffectForHasNext": {
+    "test_class": "com.google.gson.JsonStreamParserTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 2,
+      "DA": 2,
+      "ET": 1,
+      "AR": 9
+    }
+  },
+  "com.google.gson.JsonStreamParserTest#testIterator": {
+    "test_class": "com.google.gson.JsonStreamParserTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 2,
+      "DA": 1,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.JsonStreamParserTest#testParseTwoStrings": {
+    "test_class": "com.google.gson.JsonStreamParserTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.GsonTest#testClonedTypeAdapterFactoryListsAreIndependent": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 13,
+    "smells": {
+      "MNT": 1,
+      "LT": 10,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.GsonTest#testGetAdapter_Concurrency": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 9,
+    "smells": {
+      "MNT": 1,
+      "VT": 1,
+      "LT": 4,
+      "AR": 3
+    }
+  },
+  "com.google.gson.GsonTest#testNewJsonWriter_Default": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 18,
+    "smells": {
+      "SE": 1,
+      "LT": 12,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.GsonTest#testNewJsonWriter_Custom": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 15,
+    "smells": {
+      "SE": 1,
+      "LT": 12,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.GsonTest#testDefaultGsonNewBuilderModification": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 10,
+    "smells": {
+      "VT": 1,
+      "LT": 8,
+      "ET": 1
+    }
+  },
+  "com.google.gson.GsonTest#testNewBuilderModification": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 10,
+    "smells": {
+      "VT": 1,
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.GsonTest#testOverridesDefaultExcluder": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 10,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.GsonTest#testGetAdapter_Null": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 9,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.GsonTest#testNewJsonReader_Default": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 8,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.GsonTest#testNewJsonReader_Custom": {
+    "test_class": "com.google.gson.GsonTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 4,
+      "AR": 1
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testStringLongSerializationNull": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testStringLongSerialization": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testDefaultLongSerializationNull": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testDefaultLongSerialization": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testDefaultLongSerializationIntegration": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 2
+    }
+  },
+  "com.google.gson.LongSerializationPolicyTest#testStringLongSerializationIntegration": {
+    "test_class": "com.google.gson.LongSerializationPolicyTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testParsingStringAsNumber": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 17,
+    "smells": {
+      "MNT": 3,
+      "LT": 4,
+      "ET": 1,
+      "AR": 9
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testExponential": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 12,
+    "smells": {
+      "MNT": 2,
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testEqualsAcrossTypes": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "MNT": 3,
+      "LT": 1,
+      "DA": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testEquals": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 16,
+    "smells": {
+      "RA": 10,
+      "LT": 2,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testValidJsonOnToString": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 2,
+      "LT": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testDeepCopy": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testEqualsDoesNotEquateStringAndNonStringTypes": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testEqualsIntegerAndBigInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 2,
+      "ET": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testDoubleEqualsBigDecimal": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testFloatEqualsBigDecimal": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testFloatEqualsDouble": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testLongEqualsBigInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testIntegerEqualsBigInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testIntegerEqualsLong": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testShortEqualsBigInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testShortEqualsLong": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testShortEqualsInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testByteEqualsBigInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testByteEqualsLong": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testByteEqualsInteger": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testByteEqualsShort": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testStringsAndChar": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 1,
+      "DA": 1,
+      "ET": 1,
+      "AR": 10,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testAsNumber_Boolean": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testParsingStringAsBoolean": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testBoolean": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 3,
+      "DA": 2,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.JsonPrimitiveTest#testNulls": {
+    "test_class": "com.google.gson.JsonPrimitiveTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 1,
+      "DA": 1,
+      "AR": 4,
+      "EH": 4
+    }
+  },
+  "com.google.gson.JsonObjectTest#testSize": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 14,
+    "smells": {
+      "MNT": 4,
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.JsonObjectTest#testDeepCopy": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 9,
+    "smells": {
+      "MNT": 2,
+      "LT": 4,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonObjectTest#testKeySet": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 23,
+    "smells": {
+      "MNT": 4,
+      "VT": 1,
+      "LT": 5,
+      "DA": 1,
+      "ET": 1,
+      "AR": 10,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testEntrySet": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 27,
+    "smells": {
+      "MNT": 3,
+      "VT": 1,
+      "LT": 3,
+      "DA": 2,
+      "ET": 1,
+      "AR": 14,
+      "CTL": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testEqualsOnEmptyObject": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 2,
+    "smells": {
+      "RA": 1,
+      "LT": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testEqualsNonEmptyObject": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 13,
+    "smells": {
+      "RA": 1,
+      "LT": 2,
+      "DA": 2,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.JsonObjectTest#testWritePropertyWithEmptyStringName": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testPropertyWithQuotes": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingNullOrEmptyPropertyName": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingNullPropertyValue": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingAndRemovingObjectProperties": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 5,
+      "DA": 2,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.JsonObjectTest#testReadPropertyWithEmptyStringName": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingCharacterProperties": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingStringProperties": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonObjectTest#testAddingBooleanProperties": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonObjectTest#testEqualsHashCodeIgnoringOrder": {
+    "test_class": "com.google.gson.JsonObjectTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testBomIgnoredAsFirstCharacterOfDocument": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 5,
+    "smells": {
+      "UT": 1,
+      "LT": 3,
+      "ET": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPosition": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 17,
+    "smells": {
+      "UT": 1,
+      "IgT": 1,
+      "LT": 6,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionGreaterThanBufferSize": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionOverSlashSlashEndOfLineComment": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionOverHashEndOfLineComment": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionOverCStyleComment": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionOverQuotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionOverUnquotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithEscapedNewlineCharacter": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionIsOffsetByBom": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "UT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipVeryLongUnquotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "UT": 1,
+      "LT": 5,
+      "ET": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipVeryLongQuotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "UT": 1,
+      "LT": 4,
+      "ET": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipArray": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "MNT": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipArrayAfterPeek": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 14,
+    "smells": {
+      "MNT": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipObjectName": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 1,
+      "LT": 6,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipObjectNameSingleQuoted": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "MNT": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipObjectNameUnquoted": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "MNT": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testIntegersWithFractionalPartSpecified": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 2,
+      "LT": 5,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testDoubles": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 47,
+    "smells": {
+      "MNT": 18,
+      "VT": 1,
+      "LT": 5,
+      "DA": 3,
+      "ET": 1,
+      "AR": 19
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLongs": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 32,
+    "smells": {
+      "MNT": 6,
+      "VT": 1,
+      "LT": 7,
+      "DA": 1,
+      "ET": 1,
+      "AR": 14,
+      "EH": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPeekMuchLargerThanLongMinValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "MNT": 1,
+      "LT": 6,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testQuotedNumberWithEscape": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "MNT": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testIntegerMismatchFailuresDoNotAdvance": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "MNT": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testTopLevelValueTypes": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 22,
+    "smells": {
+      "MNT": 2,
+      "LT": 7,
+      "ET": 1,
+      "AR": 12
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictVeryLongNumber": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "MNT": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientVeryLongNumber": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 1,
+      "LT": 6,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testCharacterUnescaping": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 27,
+    "smells": {
+      "VT": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 20
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testMalformedNumbers": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 1,
+    "smells": {
+      "VT": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testNextFailuresDoNotAdvance": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 36,
+    "smells": {
+      "VT": 1,
+      "LT": 10,
+      "DA": 1,
+      "ET": 1,
+      "AR": 13,
+      "EH": 10
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnnecessaryArraySeparators": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 18,
+    "smells": {
+      "VT": 1,
+      "LT": 4,
+      "DA": 2,
+      "ET": 1,
+      "AR": 6,
+      "EH": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnnecessaryArraySeparatorsWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 18,
+    "smells": {
+      "VT": 1,
+      "LT": 4,
+      "DA": 2,
+      "ET": 1,
+      "AR": 6,
+      "EH": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testMalformedDocuments": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 2,
+    "smells": {
+      "VT": 1,
+      "DA": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipTopLevelQuotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipTopLevelUnquotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNonExecutePrefixWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testTopLevelValueTypeWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictMultipleTopLevelValuesWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSemicolonDelimitedNameValuePairWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSemicolonDelimitedArrayWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSingleQuotedStringsWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnquotedStringsWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSingleQuotedNamesWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnquotedNamesWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictCommentsWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3,
+      "EH": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNameValueSeparatorWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 4,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNonFiniteDoublesWithSkipValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipValueAtObjectEnd": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipValueAtArrayEnd": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipValueAfterEndOfDocument": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 6,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipDouble": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipInteger": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipObjectAfterPeek": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 6,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipObject": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testSkipTopLevelObject": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testHasNextEndOfDocument": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testReadEmptyObject": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testReadEmptyArray": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testFailWithPositionDeepPath": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPeekingUnquotedStringsPrefixedWithIntegers": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testVeryLongUnquotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testVeryLongQuotedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testDeeplyNestedArrays": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testVeryLongUnquotedLiteral": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testBomForbiddenAsOtherCharacterInDocument": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientNonExecutePrefixWithLeadingWhitespace": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientNonExecutePrefix": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientMultipleTopLevelValues": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 8,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictMultipleTopLevelValues": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientUnnecessaryArraySeparators": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "LT": 6,
+      "DA": 1,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testCommentsInStringValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testMixedCaseLiterals": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 6,
+      "DA": 2,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPeekingUnquotedStringsPrefixedWithBooleans": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testBooleans": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientQuotedNonFiniteDoubles": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientNonFiniteDoubles": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testHelloWorld": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 9,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testReadArray": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 5,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testUnterminatedStringFailure": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientExtraCommasInMaps": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictExtraCommasInMaps": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testVeryLongUnterminatedString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testUnterminatedObject": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientPartialNonExecutePrefix": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientSingleQuotedStrings": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSingleQuotedStrings": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientUnquotedStrings": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnquotedStrings": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testNullLiteralIsNotAString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testMissingValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testNegativeZero": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testUnescapingTruncatedSequence": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testUnescapingTruncatedCharacters": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testUnescapingInvalidCharacters": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testReadObject": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLongLargerThanMinLongThatWrapsAround": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLongLargerThanMaxLongThatWrapsAround": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPeekLongMaxValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPeekLongMinValue": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testReadAcrossBuffers": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testEmptyStringName": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringAsNumberWithNonDigitExponent": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringAsNumberWithDigitAndNonDigitExponent": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringAsNumberWithTruncatedExponent": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringWithLeadingSlash": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testDocumentWithCommentEndingInSlash": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringEndingInSlash": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientSemicolonDelimitedNameValuePair": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientSemicolonDelimitedArray": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientSingleQuotedNames": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientUnquotedNames": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientComments": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testLenientNameValueSeparator": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "LT": 5,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictQuotedNonFiniteDoubles": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNonFiniteDoubles": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testDeeplyNestedObjects": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 4,
+      "CTL": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPrematurelyClosed": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 6,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3,
+      "EH": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNonExecutePrefix": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSemicolonDelimitedArray": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictComments": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3,
+      "EH": 3
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStringNullIsNotNull": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testEmptyString": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 2,
+      "EH": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSemicolonDelimitedNameValuePair": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictSingleQuotedNames": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictUnquotedNames": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testStrictNameValueSeparator": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 4,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testPrematureEndOfInput": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testInvalidJsonInput": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonReaderTest#testNulls": {
+    "test_class": "com.google.gson.stream.JsonReaderTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testWriterCloseIsIdempotent": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "UT": 1,
+      "LT": 4,
+      "ET": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testTopLevelValueTypes": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 16,
+    "smells": {
+      "SE": 5,
+      "VT": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 5
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNullStringValue": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testJsonValue": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteFloatsWhenLenient": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteDoublesWhenLenient": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteNumbersWhenLenient": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testFloats": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testDoubles": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testLongs": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNumbers": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNumbersCustomClass": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "VT": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testBooleans": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testBoxedBooleans": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNulls": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testStrings": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "VT": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testUnicodeLineBreaksEscaped": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testEmptyArray": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testEmptyObject": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testObjectsInArrays": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 10,
+    "smells": {
+      "SE": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testArraysInObjects": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 10,
+    "smells": {
+      "SE": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testDeepNestingArrays": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testDeepNestingObjects": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 9,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testRepeatedName": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testPrettyPrintObject": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 13,
+    "smells": {
+      "SE": 1,
+      "VT": 1,
+      "LT": 9,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testPrettyPrintArray": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 13,
+    "smells": {
+      "SE": 1,
+      "VT": 1,
+      "LT": 9,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testLenientWriterPermitsMultipleTopLevelValues": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testMalformedNumbers": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "VT": 1,
+      "LT": 2,
+      "ET": 1,
+      "AR": 1,
+      "CTL": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testClosedWriterThrowsOnFlush": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testClosedWriterThrowsOnValue": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testClosedWriterThrowsOnName": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 5,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testClosedWriterThrowsOnStructure": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 16,
+    "smells": {
+      "LT": 6,
+      "DA": 1,
+      "ET": 1,
+      "AR": 4,
+      "EH": 4
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testStrictWriterDoesNotPermitMultipleTopLevelValues": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testBadNestingObject": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testMultipleTopLevelValues": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteNumbers": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 18,
+    "smells": {
+      "LT": 3,
+      "DA": 2,
+      "ET": 1,
+      "AR": 8,
+      "EH": 4
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteDoubles": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6,
+      "EH": 3
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNonFiniteFloats": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6,
+      "EH": 3
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNullName": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testBadNestingArray": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testValueWithoutName": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testNameWithoutValue": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testTwoNames": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.stream.JsonWriterTest#testInvalidTopLevelTypes": {
+    "test_class": "com.google.gson.stream.JsonWriterTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testParameterizedFactory_Invalid": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 56,
+    "smells": {
+      "VT": 1,
+      "LT": 24,
+      "DA": 1,
+      "ET": 1,
+      "AR": 19,
+      "EH": 10
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testParameterizedFactory": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 23,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 6
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testArrayFactory": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 21,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 3,
+      "EH": 1
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testIsAssignableFromWithNestedWildcards": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 21,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testIsAssignableFromWithBasicWildcards": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 20,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testIsAssignableFromWithTypeParameters": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 21,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testIsAssignableFromRawTypes": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 21,
+    "smells": {
+      "LT": 16,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testTypeTokenNonAnonymousSubclass": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testTypeTokenSubSubClass": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 11,
+    "smells": {
+      "DA": 2,
+      "AR": 6,
+      "EH": 3
+    }
+  },
+  "com.google.gson.reflect.TypeTokenTest#testTypeTokenRaw": {
+    "test_class": "com.google.gson.reflect.TypeTokenTest",
+    "smell_count": 3,
+    "smells": {
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.StreamsTest#testWriterForAppendable": {
+    "test_class": "com.google.gson.internal.StreamsTest",
+    "smell_count": 14,
+    "smells": {
+      "SE": 1,
+      "VT": 1,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6,
+      "EH": 4
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testPutNullValue": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 10,
+    "smells": {
+      "MNT": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testPutNullValue_Forbidden": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 5,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testPutOverrides": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 14,
+    "smells": {
+      "MNT": 2,
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testClear": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 6,
+    "smells": {
+      "MNT": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testJavaSerialization": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testEntrySetValueNull_Forbidden": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 5,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testEntrySetValueNull": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 15,
+    "smells": {
+      "LT": 7,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testRemoveRootDoesNotDoubleUnlink": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 4,
+      "ET": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testLargeSetOfRandomKeys": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testEmptyStringValues": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testContainsNullKeyIsAlwaysFalse": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 6,
+    "smells": {
+      "LT": 2,
+      "DA": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testContainsNonComparableKeyReturnsFalse": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testIterationOrder": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 2,
+      "ET": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testEqualsAndHashCode": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 1,
+    "smells": {
+      "LT": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testPutNonComparableKeyFails": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.LinkedTreeMapTest#testPutNullKeyFails": {
+    "test_class": "com.google.gson.internal.LinkedTreeMapTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatString": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatWithTimezone": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatWithMilliseconds": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseSpecialTimezone": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseWithTimezone": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseInvalidMonth": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseInvalidDay": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseWithDefaultTimezone": {
+    "test_class": "com.google.gson.internal.bind.util.ISO8601UtilsTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_atObjectEnd": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 13,
+    "smells": {
+      "LT": 10,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_atArrayEnd": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 12,
+    "smells": {
+      "LT": 9,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_afterEndOfDocument": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 19,
+    "smells": {
+      "LT": 12,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_name": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 14,
+    "smells": {
+      "LT": 10,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_filledJsonObject": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 8,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testSkipValue_emptyJsonObject": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 11,
+    "smells": {
+      "LT": 8,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testHasNext_endOfDocument": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeReaderTest#testCustomJsonElementSubclass": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeReaderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 3,
+      "ET": 1,
+      "AR": 2,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testArray": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testNestedArray": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "SE": 1,
+      "LT": 4,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testObject": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 9,
+    "smells": {
+      "SE": 1,
+      "LT": 6,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testNestedObject": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 8,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testSerializeNullsFalse": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 10,
+    "smells": {
+      "SE": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testSerializeNullsTrue": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 10,
+    "smells": {
+      "SE": 1,
+      "LT": 7,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testLenientNansAndInfinities": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 9,
+    "smells": {
+      "SE": 1,
+      "LT": 6,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testStrictNansAndInfinities": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 19,
+    "smells": {
+      "VT": 1,
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6,
+      "EH": 6
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testStrictBoxedNansAndInfinities": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 19,
+    "smells": {
+      "VT": 1,
+      "LT": 4,
+      "DA": 1,
+      "ET": 1,
+      "AR": 6,
+      "EH": 6
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testWriteAfterClose": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testPrematureClose": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testJsonValue": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testBeginArray": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testBeginObject": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testBoolMaisValue": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testBoolValue": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testValueString": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.JsonTreeWriterTest#testEmptyWriter": {
+    "test_class": "com.google.gson.internal.bind.JsonTreeWriterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testParsingDatesFormattedWithSystemLocale": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 9,
+    "smells": {
+      "VT": 1,
+      "LT": 2,
+      "ET": 1,
+      "CTL": 4,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testInvalidDatePattern": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testDatePattern": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testDateSerialization": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testParsingDatesFormattedWithUsLocale": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testUnexpectedToken": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testNullValue": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testDateDeserializationISO8601": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 1,
+    "smells": {
+      "LT": 1
+    }
+  },
+  "com.google.gson.internal.bind.DefaultDateTypeAdapterTest#testFormatUsesDefaultTimezone": {
+    "test_class": "com.google.gson.internal.bind.DefaultDateTypeAdapterTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "CTL": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testGetMajorJavaVersion": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava6": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava7": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava8": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 15,
+    "smells": {
+      "MNT": 7,
+      "LT": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava9": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 13,
+    "smells": {
+      "MNT": 6,
+      "LT": 1,
+      "AR": 6
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava10": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.JavaVersionTest#testUnknownVersionFormat": {
+    "test_class": "com.google.gson.internal.JavaVersionTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LazilyParsedNumberTest#testJavaSerialization": {
+    "test_class": "com.google.gson.internal.LazilyParsedNumberTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LazilyParsedNumberTest#testEquals": {
+    "test_class": "com.google.gson.internal.LazilyParsedNumberTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.LazilyParsedNumberTest#testHashCode": {
+    "test_class": "com.google.gson.internal.LazilyParsedNumberTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.sql.SqlTypesSupportTest#testSupported": {
+    "test_class": "com.google.gson.internal.sql.SqlTypesSupportTest",
+    "smell_count": 6,
+    "smells": {
+      "AR": 6
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseUnquotedStringArrayFails": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 6,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseString": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 5,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseMixedArray": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 7,
+    "smells": {
+      "MNT": 1,
+      "SE": 1,
+      "LT": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseDeeplyNestedArrays": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 7,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "ET": 1,
+      "AR": 2,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseDeeplyNestedObjects": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 7,
+    "smells": {
+      "MNT": 1,
+      "LT": 1,
+      "ET": 1,
+      "AR": 2,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseReader": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 4,
+    "smells": {
+      "MNT": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseUnquotedMultiWordStringFails": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseUnquotedSingleWordStringFails": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseEmptyWhitespaceInput": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseEmptyString": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 3,
+    "smells": {
+      "LT": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testParseInvalidJson": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 1,
+      "AR": 2,
+      "EH": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testReadWriteTwoObjects": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testDeserializingCustomTree": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 3,
+    "smells": {
+      "MNT": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.JsonParserTest#testChangingCustomTreeAndDeserializing": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 5,
+    "smells": {
+      "MNT": 2,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonParserTest#testExtraCommasInArrays": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 3,
+    "smells": {
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonParserTest#testExtraCommasInMaps": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testBadTypeForDeserializingCustomTree": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 1,
+    "smells": {
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testBadFieldTypeForCustomDeserializerCustomTree": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 1,
+    "smells": {
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonParserTest#testBadFieldTypeForDeserializingCustomTree": {
+    "test_class": "com.google.gson.JsonParserTest",
+    "smell_count": 1,
+    "smells": {
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testRemove": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 14,
+    "smells": {
+      "MNT": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 6,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testSet": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 17,
+    "smells": {
+      "MNT": 2,
+      "LT": 5,
+      "ET": 1,
+      "AR": 8,
+      "EH": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testDeepCopy": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 3,
+      "LT": 4,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonArrayTest#testNullJsonElementAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "MNT": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testEqualsOnEmptyArray": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 2,
+    "smells": {
+      "RA": 1,
+      "LT": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testEqualsNonEmptyArray": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 13,
+    "smells": {
+      "RA": 1,
+      "LT": 2,
+      "DA": 2,
+      "ET": 1,
+      "AR": 7
+    }
+  },
+  "com.google.gson.JsonArrayTest#testStringPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testIntegerPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testDoublePrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testBooleanPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testCharPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testMixedPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 11,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.JsonArrayTest#testNullPrimitiveAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 10,
+    "smells": {
+      "SE": 1,
+      "LT": 5,
+      "ET": 1,
+      "AR": 2,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testSameAddition": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 6,
+    "smells": {
+      "SE": 1,
+      "LT": 3,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.JsonArrayTest#testFailedGetArrayValues": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 17,
+    "smells": {
+      "VT": 1,
+      "LT": 5,
+      "DA": 2,
+      "ET": 1,
+      "EH": 8
+    }
+  },
+  "com.google.gson.JsonArrayTest#testGetAs_WrongArraySize": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 2,
+      "DA": 1,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.JsonArrayTest#testIsEmpty": {
+    "test_class": "com.google.gson.JsonArrayTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 3,
+      "DA": 1,
+      "ET": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testDeserialize": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 7,
+    "smells": {
+      "MNT": 3,
+      "AR": 4
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testDeserializeDeeplyNestedArrays": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 5,
+    "smells": {
+      "MNT": 1,
+      "AR": 2,
+      "CTL": 2
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testDeserializeDeeplyNestedObjects": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 4,
+    "smells": {
+      "MNT": 1,
+      "AR": 2,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testSerialize": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testSerializeNullValue": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testDeserializeNullValue": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.internal.bind.ObjectTypeAdapterTest#testSerializeObject": {
+    "test_class": "com.google.gson.internal.bind.ObjectTypeAdapterTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.TypeAdapterTest#testToJson_ThrowingIOException": {
+    "test_class": "com.google.gson.TypeAdapterTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 1,
+      "DA": 2,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.TypeAdapterTest#testNullSafe": {
+    "test_class": "com.google.gson.TypeAdapterTest",
+    "smell_count": 5,
+    "smells": {
+      "LT": 2,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.TypeAdapterTest#testFromJson_String_TrailingData": {
+    "test_class": "com.google.gson.TypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.TypeAdapterTest#testFromJson_Reader_TrailingData": {
+    "test_class": "com.google.gson.TypeAdapterTest",
+    "smell_count": 2,
+    "smells": {
+      "LT": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testRegisterTypeAdapterForCoreType": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 7,
+    "smells": {
+      "UT": 1,
+      "LT": 4,
+      "ET": 1,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testModificationAfterCreate": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 18,
+    "smells": {
+      "VT": 1,
+      "LT": 16,
+      "ET": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testCreatingMoreThanOnce": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 19,
+    "smells": {
+      "LT": 14,
+      "ET": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testExcludeFieldsWithModifiers": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 8,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testTransientFieldExclusion": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 8,
+    "smells": {
+      "LT": 6,
+      "ET": 1,
+      "AR": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testDisableJdkUnsafe": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 4,
+      "ET": 1,
+      "AR": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.GsonBuilderTest#testSetVersionInvalid": {
+    "test_class": "com.google.gson.GsonBuilderTest",
+    "smell_count": 9,
+    "smells": {
+      "LT": 1,
+      "DA": 1,
+      "ET": 1,
+      "AR": 4,
+      "EH": 2
+    }
+  },
+  "com.google.gson.FieldNamingPolicyTest#testUpperCasingLocaleIndependent": {
+    "test_class": "com.google.gson.FieldNamingPolicyTest",
+    "smell_count": 5,
+    "smells": {
+      "VT": 1,
+      "LT": 1,
+      "AR": 1,
+      "CTL": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.FieldNamingPolicyTest#testLowerCasingLocaleIndependent": {
+    "test_class": "com.google.gson.FieldNamingPolicyTest",
+    "smell_count": 5,
+    "smells": {
+      "VT": 1,
+      "LT": 1,
+      "AR": 1,
+      "CTL": 1,
+      "EH": 1
+    }
+  },
+  "com.google.gson.FieldNamingPolicyTest#testSeparateCamelCase": {
+    "test_class": "com.google.gson.FieldNamingPolicyTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 1,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.FieldNamingPolicyTest#testUpperCaseFirstLetter": {
+    "test_class": "com.google.gson.FieldNamingPolicyTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 1,
+      "CTL": 1
+    }
+  },
+  "com.google.gson.FieldAttributesTest#testDeclaredTypeAndClass": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 3,
+    "smells": {
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.FieldAttributesTest#testDeclaringClass": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.FieldAttributesTest#testModifiers": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 7,
+    "smells": {
+      "AR": 7
+    }
+  },
+  "com.google.gson.FieldAttributesTest#testName": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.FieldAttributesTest#testNullField": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 1,
+    "smells": {
+      "EH": 1
+    }
+  },
+  "com.google.gson.FieldAttributesTest#setUp": {
+    "test_class": "com.google.gson.FieldAttributesTest",
+    "smell_count": 1,
+    "smells": {
+      "GF": 1
+    }
+  },
+  "com.google.gson.JsonNullTest#testEqualsAndHashcode": {
+    "test_class": "com.google.gson.JsonNullTest",
+    "smell_count": 3,
+    "smells": {
+      "RA": 2,
+      "LT": 1
+    }
+  },
+  "com.google.gson.JsonNullTest#testDeepCopy": {
+    "test_class": "com.google.gson.JsonNullTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 1,
+      "ET": 1,
+      "AR": 2
+    }
+  },
+  "com.google.gson.ToNumberPolicyTest#testDouble": {
+    "test_class": "com.google.gson.ToNumberPolicyTest",
+    "smell_count": 11,
+    "smells": {
+      "MNT": 2,
+      "LT": 1,
+      "DA": 1,
+      "AR": 5,
+      "EH": 2
+    }
+  },
+  "com.google.gson.ToNumberPolicyTest#testLongOrDouble": {
+    "test_class": "com.google.gson.ToNumberPolicyTest",
+    "smell_count": 27,
+    "smells": {
+      "MNT": 2,
+      "VT": 1,
+      "LT": 1,
+      "DA": 2,
+      "AR": 16,
+      "EH": 5
+    }
+  },
+  "com.google.gson.ToNumberPolicyTest#testNullsAreNeverExpected": {
+    "test_class": "com.google.gson.ToNumberPolicyTest",
+    "smell_count": 10,
+    "smells": {
+      "LT": 1,
+      "DA": 1,
+      "AR": 4,
+      "EH": 4
+    }
+  },
+  "com.google.gson.ToNumberPolicyTest#testBigDecimal": {
+    "test_class": "com.google.gson.ToNumberPolicyTest",
+    "smell_count": 7,
+    "smells": {
+      "LT": 1,
+      "AR": 5,
+      "EH": 1
+    }
+  },
+  "com.google.gson.ToNumberPolicyTest#testLazilyParsedNumber": {
+    "test_class": "com.google.gson.ToNumberPolicyTest",
+    "smell_count": 4,
+    "smells": {
+      "LT": 1,
+      "AR": 3
+    }
+  },
+  "com.google.gson.InstanceCreatorTest#testInstanceCreatorForParametrizedType": {
+    "test_class": "com.google.gson.InstanceCreatorTest",
+    "smell_count": 5,
+    "smells": {
+      "DA": 1,
+      "AR": 4
+    }
+  },
+  "com.google.gson.InstanceCreatorTest#testInstanceCreatorReturnsBaseType": {
+    "test_class": "com.google.gson.InstanceCreatorTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  },
+  "com.google.gson.InstanceCreatorTest#testInstanceCreatorReturnsSubTypeForTopLevelObject": {
+    "test_class": "com.google.gson.InstanceCreatorTest",
+    "smell_count": 3,
+    "smells": {
+      "AR": 3
+    }
+  },
+  "com.google.gson.InstanceCreatorTest#testInstanceCreatorReturnsSubTypeForField": {
+    "test_class": "com.google.gson.InstanceCreatorTest",
+    "smell_count": 2,
+    "smells": {
+      "AR": 2
+    }
+  },
+  "com.google.gson.InstanceCreatorTest#testInstanceCreatorForCollectionType": {
+    "test_class": "com.google.gson.InstanceCreatorTest",
+    "smell_count": 1,
+    "smells": {
+      "AR": 1
+    }
+  }
+}

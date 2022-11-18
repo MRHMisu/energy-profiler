@@ -1,3 +1,5 @@
+import json
+
 import pandas
 import statistics
 import math
@@ -68,13 +70,13 @@ def get_all_testcase_names_and_loc(path):
     with open(path, "r") as file:
         lines = set(file.read().splitlines())
         for line in lines:
-            name = line.split(",")[0]
+            name = line.split(",")[0].strip()
             loc = line.split(",")[1]
             name_loc[name] = loc
     return name_loc
 
 
-def get_average_energy_result(testcase_path, num_of_run, eng_report_path, save_path):
+def get_average_energy_result_csv(testcase_path, num_of_run, eng_report_path, save_path):
     testcase = []
     loc = []
     average_elapsed_time = []
@@ -108,6 +110,30 @@ def get_average_energy_result(testcase_path, num_of_run, eng_report_path, save_p
     }
     df = pandas.DataFrame(data)
     df.to_csv(save_path, index=False)
+
+
+def get_average_energy_result_json(testcase_path, num_of_run, eng_report_path, save_path):
+    testcase_map = {}
+    testcases_names_loc = get_all_testcase_names_and_loc(testcase_path)
+    for tc in testcases_names_loc:
+        avg_result = get_overall_result_for_all_run(eng_report_path, tc, num_of_run)
+        testcase_map[tc] = {
+            'loc': testcases_names_loc[tc],
+            'median_elapsed_time': avg_result['median_elapsed_time'],
+            'median_power': avg_result['median_power'],
+            'median_energy_consumed': avg_result['median_energy_consumed'],
+            'average_elapsed_time': avg_result['average_elapsed_time'],
+            'average_power': avg_result['average_power'],
+            'average_energy_consumed': avg_result['average_energy_consumed']
+        }
+    save_to_json(testcase_map, save_path)
+
+
+def save_to_json(map, path):
+    json_string = json.dumps(map)
+    with open(path, "w") as text_file:
+        text_file.write(json_string)
+    print("Saving Done")
 
 
 def get_header():
@@ -165,14 +191,14 @@ def write_aggregate_results(all_merged, path):
 
 
 if __name__ == '__main__':
-    project_name = "gson"
-    testcase_name_path = "/Users/mrhmisu/energy-test/dataset/testcase/with-loc/gson-testcases-loc.txt"
+    project_name = "jsoup"
+    testcase_name_path = "/Users/mrhmisu/energy-test/dataset/testcase/with-loc/jsoup-testcases-loc.txt"
     result_base_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/" + project_name
     energy_reports_path = "/Users/mrhmisu/energy-test/dataset/energy-log/" + project_name
     number_of_run = 5
-    average_save_path = result_base_path + "/" + project_name + "-" + "energy-median-average.csv"
+    average_save_path = result_base_path + "/" + project_name + "-" + "energy-median-average.json"
     # aggregate_save_path = energy_reports_path + "/res/" + project_name + "-" + "aggregate_result.csv"
 
-    get_average_energy_result(testcase_name_path, number_of_run, energy_reports_path, average_save_path)
+    get_average_energy_result_json(testcase_name_path, number_of_run, energy_reports_path, average_save_path)
     # merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_path,
     #                                 aggregate_save_path)
