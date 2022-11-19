@@ -76,7 +76,7 @@ def get_all_testcase_names_and_loc(path):
     return name_loc
 
 
-def get_average_energy_result_csv(testcase_path, num_of_run, eng_report_path, save_path):
+def generate_median_energy_result_csv(testcase_path, num_of_run, eng_report_path, save_path):
     testcase = []
     loc = []
     average_elapsed_time = []
@@ -112,7 +112,7 @@ def get_average_energy_result_csv(testcase_path, num_of_run, eng_report_path, sa
     df.to_csv(save_path, index=False)
 
 
-def get_average_energy_result_json(testcase_path, num_of_run, eng_report_path, save_path):
+def generate_median_energy_result_json(testcase_path, num_of_run, eng_report_path, save_path):
     testcase_map = {}
     testcases_names_loc = get_all_testcase_names_and_loc(testcase_path)
     for tc in testcases_names_loc:
@@ -197,8 +197,4 @@ if __name__ == '__main__':
     energy_reports_path = "/Users/mrhmisu/energy-test/dataset/energy-log/" + project_name
     number_of_run = 5
     average_save_path = result_base_path + "/" + project_name + "-" + "energy-median-average.json"
-    # aggregate_save_path = energy_reports_path + "/res/" + project_name + "-" + "aggregate_result.csv"
-
-    get_average_energy_result_json(testcase_name_path, number_of_run, energy_reports_path, average_save_path)
-    # merge_energy_result_for_all_run(testcase_name_path, number_of_run, energy_reports_path,
-    #                                 aggregate_save_path)
+    generate_median_energy_result_json(testcase_name_path, number_of_run, energy_reports_path, average_save_path)

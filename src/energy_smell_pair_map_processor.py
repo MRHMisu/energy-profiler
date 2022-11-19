@@ -56,16 +56,18 @@ def get_smelly_and_non_smelly_testcases(energy_testcase_map, smelly_testcases_ma
 #      "AR": 3
 #    }
 
-def prepare_energy_smell_pairs(eng_map, sm_map, save_path):
-    smelly_testcases, non_smelly_testcases = get_smelly_and_non_smelly_testcases(eng_map, sm_map)
+def generate_energy_smell_pairs_in_csv(energy_map_file, smell_map_file, save_path):
+    energy_map = load_json(energy_map_file)
+    smell_map = load_json(smell_map_file)
+    smelly_testcases, non_smelly_testcases = get_smelly_and_non_smelly_testcases(energy_map, smell_map)
     headers = ['TC', 'LOC', 'SC', 'E', 'P', 'T', 'ESLoc', 'PSLoc', 'TSLoc', 'AR', 'ET', 'MG', 'ST', 'UT', 'RA', 'DepT',
                'MNT', 'CTL', 'EmT', 'GF', 'IgT',
                'SE', 'VT', 'DT', 'RO', 'DA', 'EH', 'CI', 'RP', 'LT']
     rows = []
     rows.append(str(",".join(headers)))
     for stc in smelly_testcases:
-        energy_data = eng_map[stc]
-        smell_data = sm_map[stc]
+        energy_data = energy_map[stc]
+        smell_data = smell_map[stc]
         row_obj = get_each_row_obj(stc, energy_data, smell_data)
         row = make_row_obj_to_csv_row(row_obj)
         rows.append(str(row))
@@ -103,7 +105,6 @@ if __name__ == '__main__':
     energy_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-energy-median-average.json"
     smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-testcase-smell-map.json"
     energy_smell_pairs_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-energy-smell-pair.csv"
-
     energy_map = load_json(energy_map_file)
     smell_map = load_json(smell_map_file)
-    prepare_energy_smell_pairs(energy_map, smell_map, energy_smell_pairs_save_path)
+    generate_energy_smell_pairs_in_csv(energy_map, smell_map, energy_smell_pairs_save_path)

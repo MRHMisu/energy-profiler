@@ -174,18 +174,17 @@ def write_smelly_test_results(path, test_list):
         file.write(content)
 
 
+def generate_testcase_and_smell_count_json(smell_path, project_prefix, output_map_file):
+    class_test_case_map = process_report(smell_path, project_prefix)
+    test_case_map = class_to_testcase_map_transform(class_test_case_map)
+    save_to_json(test_case_map, output_map_file)
+
+
 if __name__ == '__main__':
     project_prefix_path = "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/"
     smell_by_testsmell = "/Users/mrhmisu/energy-test/dataset/smell/jsoup/jsoup-smell-by-testsmell.csv"
-
     output_smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-testcase-smell-map.json"
-    smelly_test_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-smelly-testcase.txt"
-
-    testclasss_case_map = process_report(smell_by_testsmell, project_prefix_path)
-    testcase_map = class_to_testcase_map_transform(testclasss_case_map)
-    save_to_json(testcase_map, output_smell_map_file)
-    # test_list = make_smelly_test_list(testclasss_map)
-
-    # write_smelly_test_results(smelly_test_save_path, test_list)
-    # save_to_testcaes_in_csv(testclasss_map, output_smell_map_file)
-    print("done")
+    generate_testcase_and_smell_count_json(smell_by_testsmell, project_prefix_path, output_smell_map_file)
+    # testclasss_case_map = process_report(smell_by_testsmell, project_prefix_path)
+    # testcase_map = class_to_testcase_map_transform(testclasss_case_map)
+    # save_to_json(testcase_map, output_smell_map_file)

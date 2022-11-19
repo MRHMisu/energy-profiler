@@ -1,0 +1,1829 @@
+{
+  "com.google.gson.JsonArrayAsListTest#testRemoveElement": {
+    "loc": "10",
+    "median_elapsed_time": 15.878772,
+    "median_power": 11.828091,
+    "median_energy_consumed": 187.815552,
+    "average_elapsed_time": 16.0152976,
+    "average_power": 11.885293200000001,
+    "average_energy_consumed": 190.37985559999998
+  },
+  "com.google.gson.JsonArrayTest#testMixedPrimitiveAddition": {
+    "loc": "14",
+    "median_elapsed_time": 15.773975,
+    "median_power": 11.809809,
+    "median_energy_consumed": 186.993027,
+    "average_elapsed_time": 15.7986852,
+    "average_power": 11.8168788,
+    "average_energy_consumed": 186.69103719999998
+  },
+  "com.google.gson.JsonObjectTest#testEqualsNonEmptyObject": {
+    "loc": "16",
+    "median_elapsed_time": 15.755962,
+    "median_power": 11.873315,
+    "median_energy_consumed": 187.726746,
+    "average_elapsed_time": 15.8199018,
+    "average_power": 11.8707844,
+    "average_energy_consumed": 187.7937774
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipObjectNames": {
+    "loc": "10",
+    "median_elapsed_time": 16.064765,
+    "median_power": 11.864361,
+    "median_energy_consumed": 190.598175,
+    "average_elapsed_time": 16.0801054,
+    "average_power": 11.8704024,
+    "average_energy_consumed": 190.880725
+  },
+  "com.google.gson.JsonArrayAsListTest#testClear": {
+    "loc": "8",
+    "median_elapsed_time": 15.871832,
+    "median_power": 11.817978,
+    "median_energy_consumed": 187.609436,
+    "average_elapsed_time": 15.9248284,
+    "average_power": 11.829127000000002,
+    "average_energy_consumed": 188.3837828
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatString": {
+    "loc": "9",
+    "median_elapsed_time": 15.941003,
+    "median_power": 11.883283,
+    "median_energy_consumed": 189.897919,
+    "average_elapsed_time": 15.966914399999999,
+    "average_power": 11.893856000000001,
+    "average_energy_consumed": 189.90772099999998
+  },
+  "com.google.gson.stream.JsonReaderPathTest#multipleTopLevelValuesInOneDocument": {
+    "loc": "13",
+    "median_elapsed_time": 15.909434,
+    "median_power": 11.82224,
+    "median_energy_consumed": 187.899643,
+    "average_elapsed_time": 15.968697,
+    "average_power": 11.8650886,
+    "average_energy_consumed": 189.4883362
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypesSerialization": {
+    "loc": "8",
+    "median_elapsed_time": 16.062963,
+    "median_power": 11.867072,
+    "median_energy_consumed": 190.652466,
+    "average_elapsed_time": 16.200849799999997,
+    "average_power": 11.9090078,
+    "average_energy_consumed": 192.9883972
+  },
+  "com.google.gson.functional.Java17RecordTest#testFirstNameIsChosenForSerialization": {
+    "loc": "4",
+    "median_elapsed_time": 14.776621,
+    "median_power": 11.806419,
+    "median_energy_consumed": 174.388947,
+    "average_elapsed_time": 14.749646800000003,
+    "average_power": 11.8096532,
+    "average_energy_consumed": 174.1932496
+  },
+  "com.google.gson.functional.GsonVersionDiagnosticsTest#testAssertionErrorInSerializationPrintsVersion": {
+    "loc": "9",
+    "median_elapsed_time": 15.76466,
+    "median_power": 11.937117,
+    "median_energy_consumed": 189.188629,
+    "average_elapsed_time": 16.1867418,
+    "average_power": 11.9561322,
+    "average_energy_consumed": 193.5993256
+  },
+  "com.google.gson.JsonArrayAsListTest#testSize": {
+    "loc": "8",
+    "median_elapsed_time": 16.044197,
+    "median_power": 11.907269,
+    "median_energy_consumed": 189.541245,
+    "average_elapsed_time": 16.0002336,
+    "average_power": 11.892525799999998,
+    "average_energy_consumed": 190.28168639999998
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockAllCollectionImplementation": {
+    "loc": "10",
+    "median_elapsed_time": 16.164924,
+    "median_power": 11.906464,
+    "median_energy_consumed": 192.181229,
+    "average_elapsed_time": 16.448182199999998,
+    "average_power": 11.961716000000001,
+    "average_energy_consumed": 196.835965
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testAllowForSupertype": {
+    "loc": "23",
+    "median_elapsed_time": 15.975486,
+    "median_power": 11.861757,
+    "median_energy_consumed": 189.49733,
+    "average_elapsed_time": 15.9374186,
+    "average_power": 11.853993,
+    "average_energy_consumed": 188.92865
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonDeserializer_JsonSerializerDelegate": {
+    "loc": "10",
+    "median_elapsed_time": 16.096799,
+    "median_power": 11.82482,
+    "median_energy_consumed": 190.329666,
+    "average_elapsed_time": 16.0272894,
+    "average_power": 11.8461382,
+    "average_energy_consumed": 189.86044020000003
+  },
+  "com.google.gson.functional.Java17RecordTest#testFieldExclusionStrategy": {
+    "loc": "16",
+    "median_elapsed_time": 14.881274,
+    "median_power": 11.889806,
+    "median_energy_consumed": 176.935455,
+    "average_elapsed_time": 15.5302674,
+    "average_power": 12.0129514,
+    "average_energy_consumed": 186.771045
+  },
+  "com.google.gson.stream.JsonReaderPathTest#arrayPath": {
+    "loc": "35",
+    "median_elapsed_time": 15.894775,
+    "median_power": 11.865802,
+    "median_energy_consumed": 187.950409,
+    "average_elapsed_time": 15.8956198,
+    "average_power": 11.8588566,
+    "average_energy_consumed": 188.50293900000003
+  },
+  "com.google.gson.JsonObjectAsMapTest#testViewUpdates": {
+    "loc": "10",
+    "median_elapsed_time": 15.995042,
+    "median_power": 11.903522,
+    "median_energy_consumed": 190.473236,
+    "average_elapsed_time": 16.033569,
+    "average_power": 11.8981876,
+    "average_energy_consumed": 190.77231740000002
+  },
+  "com.google.gson.JsonObjectTest#testAddingNullOrEmptyPropertyName": {
+    "loc": "11",
+    "median_elapsed_time": 15.859685,
+    "median_power": 11.867202,
+    "median_energy_consumed": 189.108994,
+    "average_elapsed_time": 15.8500166,
+    "average_power": 11.8717662,
+    "average_energy_consumed": 188.169513
+  },
+  "com.google.gson.JsonObjectTest#testSize": {
+    "loc": "10",
+    "median_elapsed_time": 16.07215,
+    "median_power": 11.916472,
+    "median_energy_consumed": 191.523331,
+    "average_elapsed_time": 16.1421156,
+    "average_power": 11.9243516,
+    "average_energy_consumed": 192.5160978
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockInaccessibleInterface": {
+    "loc": "15",
+    "median_elapsed_time": 16.049926,
+    "median_power": 11.856014,
+    "median_energy_consumed": 190.288147,
+    "average_elapsed_time": 15.9933856,
+    "average_power": 11.8683722,
+    "average_energy_consumed": 189.8170808
+  },
+  "com.google.gson.TypeAdapterTest#testToJson_ThrowingIOException": {
+    "loc": "26",
+    "median_elapsed_time": 15.975872,
+    "median_power": 11.87107,
+    "median_energy_consumed": 189.508591,
+    "average_elapsed_time": 16.114362,
+    "average_power": 11.923739000000001,
+    "average_energy_consumed": 192.17211
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatWithMilliseconds": {
+    "loc": "7",
+    "median_elapsed_time": 16.159427,
+    "median_power": 11.853179,
+    "median_energy_consumed": 190.261826,
+    "average_elapsed_time": 16.3621828,
+    "average_power": 11.9215864,
+    "average_energy_consumed": 195.1371306
+  },
+  "com.google.gson.functional.Java17RecordTest#testExposeAnnotation": {
+    "loc": "8",
+    "median_elapsed_time": 14.667648,
+    "median_power": 11.857831,
+    "median_energy_consumed": 173.129349,
+    "average_elapsed_time": 14.68044,
+    "average_power": 11.8565352,
+    "average_energy_consumed": 174.06178599999998
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testInaccessibleNoArgsConstructor": {
+    "loc": "15",
+    "median_elapsed_time": 16.098351,
+    "median_power": 11.861274,
+    "median_energy_consumed": 190.809189,
+    "average_elapsed_time": 16.0734238,
+    "average_power": 11.863634600000001,
+    "average_energy_consumed": 190.6887726
+  },
+  "com.google.gson.stream.JsonReaderPathTest#arrayOfArrays": {
+    "loc": "27",
+    "median_elapsed_time": 15.955504,
+    "median_power": 11.835827,
+    "median_energy_consumed": 188.913284,
+    "average_elapsed_time": 15.905261199999998,
+    "average_power": 11.8504452,
+    "average_energy_consumed": 188.490286
+  },
+  "com.google.gson.JsonArrayTest#testSameAddition": {
+    "loc": "14",
+    "median_elapsed_time": 15.868344,
+    "median_power": 11.869694,
+    "median_energy_consumed": 187.450668,
+    "average_elapsed_time": 15.796605199999998,
+    "average_power": 11.8504518,
+    "average_energy_consumed": 187.19776620000002
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseInvalidTime": {
+    "loc": "9",
+    "median_elapsed_time": 16.621478,
+    "median_power": 12.23659,
+    "median_energy_consumed": 203.349808,
+    "average_elapsed_time": 16.612184399999997,
+    "average_power": 12.214881,
+    "average_energy_consumed": 202.9194884
+  },
+  "com.google.gson.functional.ReusedTypeVariablesFullyResolveTest#testGenericsPreservation": {
+    "loc": "11",
+    "median_elapsed_time": 15.996148,
+    "median_power": 11.893391,
+    "median_energy_consumed": 190.146484,
+    "average_elapsed_time": 16.0059708,
+    "average_power": 11.878971,
+    "average_energy_consumed": 190.1339598
+  },
+  "com.google.gson.functional.Java17RecordTest#testThrowingConstructor": {
+    "loc": "19",
+    "median_elapsed_time": 14.826047,
+    "median_power": 11.831596,
+    "median_energy_consumed": 175.851456,
+    "average_elapsed_time": 14.809864200000002,
+    "average_power": 11.880187600000001,
+    "average_energy_consumed": 175.94412860000003
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipArrayEnd": {
+    "loc": "10",
+    "median_elapsed_time": 15.784065,
+    "median_power": 11.899759,
+    "median_energy_consumed": 187.973679,
+    "average_elapsed_time": 15.8387752,
+    "average_power": 11.886883,
+    "average_energy_consumed": 188.26967159999998
+  },
+  "com.google.gson.JsonObjectAsMapTest#testGet": {
+    "loc": "8",
+    "median_elapsed_time": 15.863423,
+    "median_power": 11.868732,
+    "median_energy_consumed": 187.44516,
+    "average_elapsed_time": 15.8407454,
+    "average_power": 11.8590776,
+    "average_energy_consumed": 187.85509340000002
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypesWithWriterSerialization": {
+    "loc": "9",
+    "median_elapsed_time": 16.065565,
+    "median_power": 11.940939,
+    "median_energy_consumed": 191.837921,
+    "average_elapsed_time": 16.0132996,
+    "average_power": 11.9122182,
+    "average_energy_consumed": 190.7662628
+  },
+  "com.google.gson.JsonObjectAsMapTest#testPut": {
+    "loc": "28",
+    "median_elapsed_time": 16.107716,
+    "median_power": 11.88613,
+    "median_energy_consumed": 191.458405,
+    "average_elapsed_time": 16.3556676,
+    "average_power": 11.9473238,
+    "average_energy_consumed": 195.4572356
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testTypesWithMultipleParametersSerialization": {
+    "loc": "9",
+    "median_elapsed_time": 15.944139,
+    "median_power": 11.843509,
+    "median_energy_consumed": 188.661224,
+    "average_elapsed_time": 16.0561456,
+    "average_power": 11.8417576,
+    "average_energy_consumed": 190.1334898
+  },
+  "com.google.gson.JsonArrayTest#testCharPrimitiveAddition": {
+    "loc": "11",
+    "median_elapsed_time": 15.791912,
+    "median_power": 11.896883,
+    "median_energy_consumed": 187.620575,
+    "average_elapsed_time": 15.8165728,
+    "average_power": 11.8786426,
+    "average_energy_consumed": 187.88421920000002
+  },
+  "com.google.gson.JsonArrayTest#testNullPrimitiveAddition": {
+    "loc": "16",
+    "median_elapsed_time": 15.996922,
+    "median_power": 11.89668,
+    "median_energy_consumed": 190.605682,
+    "average_elapsed_time": 16.0226902,
+    "average_power": 11.8887874,
+    "average_energy_consumed": 190.4877074
+  },
+  "com.google.gson.stream.JsonReaderPathTest#objectPath": {
+    "loc": "47",
+    "median_elapsed_time": 15.96619,
+    "median_power": 11.917399,
+    "median_energy_consumed": 189.992584,
+    "average_elapsed_time": 16.0316172,
+    "average_power": 11.8625752,
+    "average_energy_consumed": 190.1800232
+  },
+  "com.google.gson.functional.GsonVersionDiagnosticsTest#testAssertionErrorInDeserializationPrintsVersion": {
+    "loc": "9",
+    "median_elapsed_time": 15.996598,
+    "median_power": 11.863762,
+    "median_energy_consumed": 190.220871,
+    "average_elapsed_time": 16.015311200000003,
+    "average_power": 11.872120800000001,
+    "average_energy_consumed": 190.1320892
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeWithCustomSerializer": {
+    "loc": "15",
+    "median_elapsed_time": 15.998015,
+    "median_power": 11.901558,
+    "median_energy_consumed": 191.44838,
+    "average_elapsed_time": 16.081128999999997,
+    "average_power": 11.910809400000002,
+    "average_energy_consumed": 191.5379456
+  },
+  "com.google.gson.JsonObjectAsMapTest#testEntrySet": {
+    "loc": "31",
+    "median_elapsed_time": 16.758529,
+    "median_power": 12.250864,
+    "median_energy_consumed": 205.371887,
+    "average_elapsed_time": 17.0610218,
+    "average_power": 12.273520399999999,
+    "average_energy_consumed": 209.44369799999998
+  },
+  "com.google.gson.JsonArrayTest#testNullJsonElementAddition": {
+    "loc": "5",
+    "median_elapsed_time": 16.539205,
+    "median_power": 11.921711,
+    "median_energy_consumed": 198.192123,
+    "average_elapsed_time": 16.641871000000002,
+    "average_power": 11.977349,
+    "average_energy_consumed": 199.407126
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypesWithCustomDeserializer": {
+    "loc": "17",
+    "median_elapsed_time": 16.09615,
+    "median_power": 11.86312,
+    "median_energy_consumed": 190.547348,
+    "average_elapsed_time": 17.0867398,
+    "average_power": 11.928428800000002,
+    "average_energy_consumed": 204.15378719999998
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipObjectEnd": {
+    "loc": "11",
+    "median_elapsed_time": 15.909014,
+    "median_power": 11.838253,
+    "median_energy_consumed": 189.19136,
+    "average_elapsed_time": 15.908089,
+    "average_power": 11.8574334,
+    "average_energy_consumed": 188.6312316
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedClassesDeserialization": {
+    "loc": "11",
+    "median_elapsed_time": 15.891525,
+    "median_power": 11.848893,
+    "median_energy_consumed": 188.358215,
+    "average_elapsed_time": 15.9471206,
+    "average_power": 11.8325998,
+    "average_energy_consumed": 188.6972534
+  },
+  "com.google.gson.FieldNamingPolicyTest#testLowerCasingLocaleIndependent": {
+    "loc": "20",
+    "median_elapsed_time": 15.929371,
+    "median_power": 11.876116,
+    "median_energy_consumed": 189.023407,
+    "average_elapsed_time": 15.976491,
+    "average_power": 11.885589200000002,
+    "average_energy_consumed": 189.8921112
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeGenericArraysDeserialization": {
+    "loc": "13",
+    "median_elapsed_time": 15.994562,
+    "median_power": 11.84575,
+    "median_energy_consumed": 190.219131,
+    "average_elapsed_time": 16.1722004,
+    "average_power": 11.898286200000001,
+    "average_energy_consumed": 192.4709258
+  },
+  "com.google.gson.internal.GsonBuildConfigTest#testEnsureGsonBuildConfigGetsUpdatedToMavenVersion": {
+    "loc": "3",
+    "median_elapsed_time": 16.09621,
+    "median_power": 11.859823,
+    "median_energy_consumed": 190.898193,
+    "average_elapsed_time": 16.0942092,
+    "average_power": 11.8566892,
+    "average_energy_consumed": 190.8248106
+  },
+  "com.google.gson.JsonArrayTest#testBooleanPrimitiveAddition": {
+    "loc": "10",
+    "median_elapsed_time": 15.795863,
+    "median_power": 11.82196,
+    "median_energy_consumed": 186.738068,
+    "average_elapsed_time": 15.7763466,
+    "average_power": 11.818212800000001,
+    "average_energy_consumed": 186.4547546
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testGsonFutureAdapter": {
+    "loc": "6",
+    "median_elapsed_time": 15.999103,
+    "median_power": 11.906641,
+    "median_energy_consumed": 190.581818,
+    "average_elapsed_time": 16.0188678,
+    "average_power": 11.892997,
+    "average_energy_consumed": 190.51522540000002
+  },
+  "com.google.gson.JsonObjectTest#testEqualsOnEmptyObject": {
+    "loc": "3",
+    "median_elapsed_time": 15.859852,
+    "median_power": 11.873085,
+    "median_energy_consumed": 188.305359,
+    "average_elapsed_time": 15.8976696,
+    "average_power": 11.8814022,
+    "average_energy_consumed": 188.8928498
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testDeserialization": {
+    "loc": "13",
+    "median_elapsed_time": 15.700899,
+    "median_power": 11.942047,
+    "median_energy_consumed": 187.500885,
+    "average_elapsed_time": 15.689546000000002,
+    "average_power": 11.8967086,
+    "average_energy_consumed": 186.6619752
+  },
+  "com.google.gson.GsonBuilderTest#testExcludeFieldsWithModifiers": {
+    "loc": "4",
+    "median_elapsed_time": 15.868833,
+    "median_power": 11.805231,
+    "median_energy_consumed": 188.519211,
+    "average_elapsed_time": 15.8926846,
+    "average_power": 11.8293236,
+    "average_energy_consumed": 188.00261840000002
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockInaccessibleStaticField": {
+    "loc": "15",
+    "median_elapsed_time": 16.149128,
+    "median_power": 11.919766,
+    "median_energy_consumed": 192.420227,
+    "average_elapsed_time": 16.164077,
+    "average_power": 11.9261018,
+    "average_energy_consumed": 192.7729186
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseInvalidMonth": {
+    "loc": "9",
+    "median_elapsed_time": 15.831167,
+    "median_power": 11.853465,
+    "median_energy_consumed": 187.865646,
+    "average_elapsed_time": 15.907523399999999,
+    "average_power": 11.845972399999999,
+    "average_energy_consumed": 188.44539780000002
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava10": {
+    "loc": "3",
+    "median_elapsed_time": 16.078068,
+    "median_power": 11.852897,
+    "median_energy_consumed": 190.651413,
+    "average_elapsed_time": 15.974124,
+    "average_power": 11.8499388,
+    "average_energy_consumed": 189.300998
+  },
+  "com.google.gson.JsonObjectTest#testEqualsHashCodeIgnoringOrder": {
+    "loc": "11",
+    "median_elapsed_time": 16.177053,
+    "median_power": 11.910611,
+    "median_energy_consumed": 192.378296,
+    "average_elapsed_time": 16.1848322,
+    "average_power": 11.9675568,
+    "average_energy_consumed": 193.7389128
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonDeserializer_ReflectiveSerializerDelegate": {
+    "loc": "5",
+    "median_elapsed_time": 16.095621,
+    "median_power": 11.895423,
+    "median_energy_consumed": 191.511032,
+    "average_elapsed_time": 15.9743008,
+    "average_power": 11.8874338,
+    "average_energy_consumed": 189.8970794
+  },
+  "com.google.gson.GsonBuilderTest#testRegisterTypeAdapterForCoreType": {
+    "loc": "6",
+    "median_elapsed_time": 15.979245,
+    "median_power": 11.874615,
+    "median_energy_consumed": 188.630966,
+    "average_elapsed_time": 15.903637800000002,
+    "average_power": 11.853179,
+    "average_energy_consumed": 188.50485220000002
+  },
+  "com.google.gson.GsonBuilderTest#testCreatingMoreThanOnce": {
+    "loc": "15",
+    "median_elapsed_time": 16.031292,
+    "median_power": 11.879659,
+    "median_energy_consumed": 190.403,
+    "average_elapsed_time": 16.024525,
+    "average_power": 11.872987400000001,
+    "average_energy_consumed": 190.2567688
+  },
+  "com.google.gson.functional.GsonVersionDiagnosticsTest#testVersionPattern": {
+    "loc": "4",
+    "median_elapsed_time": 16.084092,
+    "median_power": 11.868115,
+    "median_energy_consumed": 190.887863,
+    "average_elapsed_time": 16.0434272,
+    "average_power": 11.8769808,
+    "average_energy_consumed": 190.5491822
+  },
+  "com.google.gson.JsonObjectTest#testAddingCharacterProperties": {
+    "loc": "12",
+    "median_elapsed_time": 15.862598,
+    "median_power": 11.896757,
+    "median_energy_consumed": 187.726257,
+    "average_elapsed_time": 15.935102599999999,
+    "average_power": 11.872977800000001,
+    "average_energy_consumed": 189.2003384
+  },
+  "com.google.gson.JsonObjectTest#testAddingBooleanProperties": {
+    "loc": "9",
+    "median_elapsed_time": 16.137027,
+    "median_power": 11.927848,
+    "median_energy_consumed": 191.464645,
+    "average_elapsed_time": 16.347939200000003,
+    "average_power": 11.9391334,
+    "average_energy_consumed": 195.21721780000001
+  },
+  "com.google.gson.stream.JsonReaderPathTest#arrayOfObjects": {
+    "loc": "27",
+    "median_elapsed_time": 15.972889,
+    "median_power": 11.873063,
+    "median_energy_consumed": 189.64711,
+    "average_elapsed_time": 15.924740000000003,
+    "average_power": 11.868502799999998,
+    "average_energy_consumed": 188.99712219999998
+  },
+  "com.google.gson.internal.reflect.Java17ReflectionHelperTest#testJava17RecordAccessors": {
+    "loc": "12",
+    "median_elapsed_time": 14.737744,
+    "median_power": 11.838033,
+    "median_energy_consumed": 174.465897,
+    "average_elapsed_time": 14.80113,
+    "average_power": 11.8432622,
+    "average_energy_consumed": 175.3033446
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonDeserializer_ReflectiveTreeSerializerDelegate": {
+    "loc": "5",
+    "median_elapsed_time": 16.164662,
+    "median_power": 11.800156,
+    "median_energy_consumed": 190.652893,
+    "average_elapsed_time": 16.110283199999998,
+    "average_power": 11.817507800000001,
+    "average_energy_consumed": 190.38036200000002
+  },
+  "com.google.gson.JsonObjectAsMapTest#testRemove": {
+    "loc": "14",
+    "median_elapsed_time": 16.095488,
+    "median_power": 11.833291,
+    "median_energy_consumed": 191.460861,
+    "average_elapsed_time": 16.1035216,
+    "average_power": 11.872046399999999,
+    "average_energy_consumed": 191.18113080000003
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testSerializationWithMultipleTypes": {
+    "loc": "9",
+    "median_elapsed_time": 15.668025,
+    "median_power": 11.841421,
+    "median_energy_consumed": 185.924881,
+    "average_elapsed_time": 15.6191306,
+    "average_power": 11.8407538,
+    "average_energy_consumed": 184.94232159999999
+  },
+  "com.google.gson.functional.Java17RecordTest#testFieldNamingStrategy": {
+    "loc": "6",
+    "median_elapsed_time": 14.705677,
+    "median_power": 11.865676,
+    "median_energy_consumed": 174.492798,
+    "average_elapsed_time": 14.9270034,
+    "average_power": 11.926218800000001,
+    "average_energy_consumed": 178.0970946
+  },
+  "com.google.gson.JsonArrayTest#testDeepCopy": {
+    "loc": "11",
+    "median_elapsed_time": 15.997543,
+    "median_power": 11.817105,
+    "median_energy_consumed": 189.584229,
+    "average_elapsed_time": 15.980728800000003,
+    "average_power": 11.836216400000001,
+    "average_energy_consumed": 189.151703
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testVariableTypeArrayDeserialization": {
+    "loc": "10",
+    "median_elapsed_time": 15.994032,
+    "median_power": 11.896143,
+    "median_energy_consumed": 190.326355,
+    "average_elapsed_time": 16.0168496,
+    "average_power": 11.887738200000001,
+    "average_energy_consumed": 190.4031466
+  },
+  "com.google.gson.JsonObjectAsMapTest#testContainsValue": {
+    "loc": "11",
+    "median_elapsed_time": 15.860991,
+    "median_power": 11.885847,
+    "median_energy_consumed": 188.477173,
+    "average_elapsed_time": 15.855112,
+    "average_power": 11.8820682,
+    "average_energy_consumed": 188.3921662
+  },
+  "com.google.gson.functional.Java17RecordTest#testDuplicateJsonProperties": {
+    "loc": "7",
+    "median_elapsed_time": 14.953454,
+    "median_power": 11.8277,
+    "median_energy_consumed": 178.032455,
+    "average_elapsed_time": 14.897656000000001,
+    "average_power": 11.8657068,
+    "average_energy_consumed": 176.7761046
+  },
+  "com.google.gson.functional.Java17RecordTest#testPrimitiveDefaultValues": {
+    "loc": "4",
+    "median_elapsed_time": 14.807711,
+    "median_power": 11.961189,
+    "median_energy_consumed": 176.109589,
+    "average_elapsed_time": 14.804604000000001,
+    "average_power": 11.947396,
+    "average_energy_consumed": 176.873941
+  },
+  "com.google.gson.JsonObjectTest#testAddingNullPropertyValue": {
+    "loc": "9",
+    "median_elapsed_time": 15.962748,
+    "median_power": 11.948479,
+    "median_energy_consumed": 189.492004,
+    "average_elapsed_time": 16.1229668,
+    "average_power": 11.9516156,
+    "average_energy_consumed": 192.7227628
+  },
+  "com.google.gson.JsonArrayAsListTest#testIndexOf": {
+    "loc": "14",
+    "median_elapsed_time": 15.979493,
+    "median_power": 11.85851,
+    "median_energy_consumed": 188.999359,
+    "average_elapsed_time": 15.996581,
+    "average_power": 11.8647278,
+    "average_energy_consumed": 189.7966582
+  },
+  "com.google.gson.internal.JavaVersionTest#testUnknownVersionFormat": {
+    "loc": "3",
+    "median_elapsed_time": 16.032959,
+    "median_power": 11.88079,
+    "median_energy_consumed": 190.484222,
+    "average_elapsed_time": 16.0707036,
+    "average_power": 11.8867058,
+    "average_energy_consumed": 191.0273252
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava7": {
+    "loc": "3",
+    "median_elapsed_time": 15.978767,
+    "median_power": 11.890526,
+    "median_energy_consumed": 190.524231,
+    "average_elapsed_time": 16.0314536,
+    "average_power": 11.8858444,
+    "average_energy_consumed": 190.5471892
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testClassWithoutNoArgsConstructor": {
+    "loc": "36",
+    "median_elapsed_time": 16.264011,
+    "median_power": 11.921405,
+    "median_energy_consumed": 193.889862,
+    "average_elapsed_time": 16.667308999999996,
+    "average_power": 11.9353216,
+    "average_energy_consumed": 198.997235
+  },
+  "com.google.gson.functional.Java17RecordTest#testObjectDefaultValue": {
+    "loc": "6",
+    "median_elapsed_time": 14.840203,
+    "median_power": 11.877351,
+    "median_energy_consumed": 176.492615,
+    "average_elapsed_time": 14.817074400000001,
+    "average_power": 11.8712092,
+    "average_energy_consumed": 175.8943726
+  },
+  "com.google.gson.JsonObjectTest#testReadPropertyWithEmptyStringName": {
+    "loc": "4",
+    "median_elapsed_time": 16.937607,
+    "median_power": 12.299665,
+    "median_energy_consumed": 206.97728,
+    "average_elapsed_time": 16.975125000000002,
+    "average_power": 12.26729,
+    "average_energy_consumed": 208.246747
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testSerialization": {
+    "loc": "12",
+    "median_elapsed_time": 15.660604,
+    "median_power": 11.883622,
+    "median_energy_consumed": 184.910904,
+    "average_elapsed_time": 15.549685199999999,
+    "average_power": 11.884910199999998,
+    "average_energy_consumed": 184.8037234
+  },
+  "com.google.gson.JsonArrayAsListTest#testEqualsHashCode": {
+    "loc": "8",
+    "median_elapsed_time": 16.064431,
+    "median_power": 11.925307,
+    "median_energy_consumed": 190.988327,
+    "average_elapsed_time": 16.261259199999998,
+    "average_power": 11.9790782,
+    "average_energy_consumed": 194.8347596
+  },
+  "com.google.gson.GsonBuilderTest#testSetVersionInvalid": {
+    "loc": "17",
+    "median_elapsed_time": 15.947799,
+    "median_power": 11.818085,
+    "median_energy_consumed": 189.76535,
+    "average_elapsed_time": 15.894526200000001,
+    "average_power": 11.843371199999998,
+    "average_energy_consumed": 188.2480222
+  },
+  "com.google.gson.JsonObjectAsMapTest#testClear": {
+    "loc": "8",
+    "median_elapsed_time": 16.064693,
+    "median_power": 11.840969,
+    "median_energy_consumed": 190.221527,
+    "average_elapsed_time": 16.052923200000002,
+    "average_power": 11.8550686,
+    "average_energy_consumed": 190.3165954
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedGsonMixingSinceAndUntilDeserialization": {
+    "loc": "19",
+    "median_elapsed_time": 15.861865,
+    "median_power": 11.844497,
+    "median_energy_consumed": 187.733047,
+    "average_elapsed_time": 15.840292999999999,
+    "average_power": 11.8527808,
+    "average_energy_consumed": 187.756152
+  },
+  "com.google.gson.JsonArrayAsListTest#testContains": {
+    "loc": "10",
+    "median_elapsed_time": 16.412069,
+    "median_power": 11.943885,
+    "median_energy_consumed": 196.023865,
+    "average_elapsed_time": 16.252171,
+    "average_power": 11.9435116,
+    "average_energy_consumed": 194.13965779999998
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonDeserializer_CustomSerializerDelegate": {
+    "loc": "13",
+    "median_elapsed_time": 16.084399,
+    "median_power": 11.893106,
+    "median_energy_consumed": 190.818954,
+    "average_elapsed_time": 16.1865574,
+    "average_power": 11.891403799999999,
+    "average_energy_consumed": 192.48408519999998
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonSerializer": {
+    "loc": "10",
+    "median_elapsed_time": 15.845936,
+    "median_power": 11.875867,
+    "median_energy_consumed": 188.35585,
+    "average_elapsed_time": 15.912371000000002,
+    "average_power": 11.8630028,
+    "average_energy_consumed": 188.77349540000003
+  },
+  "com.google.gson.JsonParserParameterizedTest#testParse": {
+    "loc": "5",
+    "median_elapsed_time": 16.292864,
+    "median_power": 11.870517,
+    "median_energy_consumed": 194.710861,
+    "average_elapsed_time": 16.288147400000003,
+    "average_power": 11.931415,
+    "average_energy_consumed": 194.35920699999997
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedGsonWithUnversionedClassesDeserialization": {
+    "loc": "10",
+    "median_elapsed_time": 15.828724,
+    "median_power": 11.847798,
+    "median_energy_consumed": 188.852646,
+    "average_elapsed_time": 15.913636399999998,
+    "average_power": 11.8647172,
+    "average_energy_consumed": 188.80356460000002
+  },
+  "com.google.gson.JsonObjectAsMapTest#testPutAll": {
+    "loc": "26",
+    "median_elapsed_time": 15.965224,
+    "median_power": 11.853018,
+    "median_energy_consumed": 188.746078,
+    "average_elapsed_time": 15.868735000000001,
+    "average_power": 11.8509822,
+    "average_energy_consumed": 188.0617796
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseWithDefaultTimezone": {
+    "loc": "6",
+    "median_elapsed_time": 16.148221,
+    "median_power": 11.901858,
+    "median_energy_consumed": 191.079865,
+    "average_elapsed_time": 16.268847200000003,
+    "average_power": 11.881617,
+    "average_energy_consumed": 193.30923760000002
+  },
+  "com.google.gson.VersionExclusionStrategyTest#testOlderVersion": {
+    "loc": "9",
+    "median_elapsed_time": 15.961195,
+    "median_power": 11.867205,
+    "median_energy_consumed": 188.382797,
+    "average_elapsed_time": 15.9698566,
+    "average_power": 11.853838999999999,
+    "average_energy_consumed": 189.29991760000001
+  },
+  "com.google.gson.functional.Java17RecordTest#testUnknownJsonProperty": {
+    "loc": "5",
+    "median_elapsed_time": 14.72576,
+    "median_power": 11.911951,
+    "median_energy_consumed": 174.066391,
+    "average_elapsed_time": 14.725361799999998,
+    "average_power": 11.877638200000002,
+    "average_energy_consumed": 174.8981872
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testVariableTypeDeserialization": {
+    "loc": "9",
+    "median_elapsed_time": 16.941525,
+    "median_power": 12.235488,
+    "median_energy_consumed": 207.287827,
+    "average_elapsed_time": 17.074226799999998,
+    "average_power": 12.291646799999999,
+    "average_energy_consumed": 209.9124452
+  },
+  "com.google.gson.JsonObjectAsMapTest#testContainsKey": {
+    "loc": "8",
+    "median_elapsed_time": 16.041956,
+    "median_power": 11.88659,
+    "median_energy_consumed": 190.913635,
+    "average_elapsed_time": 16.2120746,
+    "average_power": 11.8978576,
+    "average_energy_consumed": 192.88385
+  },
+  "com.google.gson.functional.TypeAdapterRuntimeTypeWrapperTest#testJsonDeserializer_SubclassBackwardCompatibility": {
+    "loc": "15",
+    "median_elapsed_time": 16.231244,
+    "median_power": 11.85192,
+    "median_energy_consumed": 192.02507,
+    "average_elapsed_time": 16.213906400000003,
+    "average_power": 11.8673324,
+    "average_energy_consumed": 192.4239806
+  },
+  "com.google.gson.JsonObjectAsMapTest#testSize": {
+    "loc": "10",
+    "median_elapsed_time": 16.071718,
+    "median_power": 11.840183,
+    "median_energy_consumed": 191.292603,
+    "average_elapsed_time": 16.0457508,
+    "average_power": 11.877430200000001,
+    "average_energy_consumed": 190.59032
+  },
+  "com.google.gson.JsonArrayAsListTest#testRemoveIndex": {
+    "loc": "14",
+    "median_elapsed_time": 15.881383,
+    "median_power": 11.919146,
+    "median_energy_consumed": 189.9767,
+    "average_elapsed_time": 16.035746,
+    "average_power": 11.9180134,
+    "average_energy_consumed": 191.1150574
+  },
+  "com.google.gson.GsonBuilderTest#testTransientFieldExclusion": {
+    "loc": "4",
+    "median_elapsed_time": 16.080376,
+    "median_power": 11.828744,
+    "median_energy_consumed": 189.986481,
+    "average_elapsed_time": 16.0498798,
+    "average_power": 11.836652599999999,
+    "average_energy_consumed": 189.97686779999998
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseInvalidDay": {
+    "loc": "9",
+    "median_elapsed_time": 15.95135,
+    "median_power": 11.940784,
+    "median_energy_consumed": 190.250473,
+    "average_elapsed_time": 16.544335,
+    "average_power": 12.0045936,
+    "average_energy_consumed": 198.80942999999996
+  },
+  "com.google.gson.internal.bind.Java17ReflectiveTypeAdapterFactoryTest#testCustomAdapterForRecords": {
+    "loc": "6",
+    "median_elapsed_time": 14.95673,
+    "median_power": 11.910994,
+    "median_energy_consumed": 178.628998,
+    "average_elapsed_time": 14.965492800000002,
+    "average_power": 11.878289599999999,
+    "average_energy_consumed": 177.7718966
+  },
+  "com.google.gson.TypeAdapterTest#testFromJson_String_TrailingData": {
+    "loc": "3",
+    "median_elapsed_time": 15.992923,
+    "median_power": 11.885958,
+    "median_energy_consumed": 190.046265,
+    "average_elapsed_time": 15.95854,
+    "average_power": 11.8981818,
+    "average_energy_consumed": 189.8860504
+  },
+  "com.google.gson.GsonBuilderTest#testDisableJdkUnsafe": {
+    "loc": "10",
+    "median_elapsed_time": 16.099409,
+    "median_power": 11.869725,
+    "median_energy_consumed": 190.114639,
+    "average_elapsed_time": 16.095020600000005,
+    "average_power": 11.8673108,
+    "average_energy_consumed": 191.0031524
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedUntilSerialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.180031,
+    "median_power": 11.813493,
+    "median_energy_consumed": 191.019821,
+    "average_elapsed_time": 16.1260168,
+    "average_power": 11.8374686,
+    "average_energy_consumed": 190.89470519999998
+  },
+  "com.google.gson.JsonObjectTest#testEntrySet": {
+    "loc": "41",
+    "median_elapsed_time": 16.079944,
+    "median_power": 11.903579,
+    "median_energy_consumed": 191.141357,
+    "average_elapsed_time": 16.0837284,
+    "average_power": 11.917531199999999,
+    "average_energy_consumed": 191.679251
+  },
+  "com.google.gson.FieldNamingPolicyTest#testUpperCasingLocaleIndependent": {
+    "loc": "20",
+    "median_elapsed_time": 15.976359,
+    "median_power": 11.833535,
+    "median_energy_consumed": 189.166443,
+    "average_elapsed_time": 15.9754176,
+    "average_power": 11.855572599999999,
+    "average_energy_consumed": 189.40653079999998
+  },
+  "com.google.gson.JsonObjectAsMapTest#testValues": {
+    "loc": "18",
+    "median_elapsed_time": 15.8626,
+    "median_power": 11.861809,
+    "median_energy_consumed": 188.159134,
+    "average_elapsed_time": 16.0656594,
+    "average_power": 11.896126400000002,
+    "average_energy_consumed": 191.17240300000003
+  },
+  "com.google.gson.internal.reflect.Java17ReflectionHelperTest#testJava17Record": {
+    "loc": "8",
+    "median_elapsed_time": 14.788826,
+    "median_power": 11.837675,
+    "median_energy_consumed": 174.486359,
+    "average_elapsed_time": 14.9072588,
+    "average_power": 11.886727800000001,
+    "average_energy_consumed": 177.2324586
+  },
+  "com.google.gson.JsonArrayTest#testRemove": {
+    "loc": "18",
+    "median_elapsed_time": 15.977411,
+    "median_power": 11.868716,
+    "median_energy_consumed": 188.996704,
+    "average_elapsed_time": 16.0128392,
+    "average_power": 11.8515134,
+    "average_energy_consumed": 189.7802946
+  },
+  "com.google.gson.functional.VersioningTest#testIgnoreLaterVersionClassSerialization": {
+    "loc": "4",
+    "median_elapsed_time": 15.947827,
+    "median_power": 11.85527,
+    "median_energy_consumed": 189.348892,
+    "average_elapsed_time": 16.0507872,
+    "average_power": 11.8732172,
+    "average_energy_consumed": 190.5879394
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockAllJavaExtendingJdkClass": {
+    "loc": "10",
+    "median_elapsed_time": 15.906804,
+    "median_power": 11.885714,
+    "median_energy_consumed": 188.883179,
+    "average_elapsed_time": 16.0208638,
+    "average_power": 11.869847199999999,
+    "average_energy_consumed": 190.16912240000002
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava9": {
+    "loc": "8",
+    "median_elapsed_time": 15.999914,
+    "median_power": 11.847798,
+    "median_energy_consumed": 189.39711,
+    "average_elapsed_time": 16.0024132,
+    "average_power": 11.8554594,
+    "average_energy_consumed": 189.721463
+  },
+  "com.google.gson.JsonObjectTest#testPropertyWithQuotes": {
+    "loc": "6",
+    "median_elapsed_time": 15.898209,
+    "median_power": 11.832837,
+    "median_energy_consumed": 188.327713,
+    "average_elapsed_time": 15.951421,
+    "average_power": 11.852540999999999,
+    "average_energy_consumed": 189.0636506
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipEndOfDocument": {
+    "loc": "13",
+    "median_elapsed_time": 15.757797,
+    "median_power": 11.87093,
+    "median_energy_consumed": 186.603378,
+    "average_elapsed_time": 15.7774968,
+    "average_power": 11.867553000000001,
+    "average_energy_consumed": 187.2393096
+  },
+  "com.google.gson.functional.Java17RecordTest#testRecordBaseClass": {
+    "loc": "7",
+    "median_elapsed_time": 14.764193,
+    "median_power": 11.837217,
+    "median_energy_consumed": 174.717789,
+    "average_elapsed_time": 14.7986176,
+    "average_power": 11.8478952,
+    "average_energy_consumed": 175.329361
+  },
+  "com.google.gson.TypeAdapterTest#testNullSafe": {
+    "loc": "13",
+    "median_elapsed_time": 15.845479,
+    "median_power": 11.832452,
+    "median_energy_consumed": 187.49086,
+    "average_elapsed_time": 15.8827226,
+    "average_power": 11.8596756,
+    "average_energy_consumed": 188.372763
+  },
+  "com.google.gson.VersionExclusionStrategyTest#testNewerVersion": {
+    "loc": "9",
+    "median_elapsed_time": 16.050156,
+    "median_power": 11.843802,
+    "median_energy_consumed": 189.517822,
+    "average_elapsed_time": 15.956781800000002,
+    "average_power": 11.843568999999999,
+    "average_energy_consumed": 188.98470479999997
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testGsonFromJsonTypeToken": {
+    "loc": "29",
+    "median_elapsed_time": 16.145144,
+    "median_power": 11.852582,
+    "median_energy_consumed": 191.361633,
+    "average_elapsed_time": 16.124033,
+    "average_power": 11.864741599999999,
+    "average_energy_consumed": 191.3056396
+  },
+  "com.google.gson.JsonArrayTest#testIsEmpty": {
+    "loc": "9",
+    "median_elapsed_time": 15.987284,
+    "median_power": 11.848178,
+    "median_energy_consumed": 189.653946,
+    "average_elapsed_time": 16.5503468,
+    "average_power": 11.9255916,
+    "average_energy_consumed": 197.6016448
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipArrayElements": {
+    "loc": "8",
+    "median_elapsed_time": 15.842044,
+    "median_power": 11.84321,
+    "median_energy_consumed": 187.495911,
+    "average_elapsed_time": 15.8412364,
+    "average_power": 11.835474000000001,
+    "average_energy_consumed": 187.4843844
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedUntilDeserialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.738849,
+    "median_power": 12.248223,
+    "median_energy_consumed": 204.130814,
+    "average_elapsed_time": 16.8571292,
+    "average_power": 12.241833599999998,
+    "average_energy_consumed": 206.37381919999999
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockAllPartial": {
+    "loc": "22",
+    "median_elapsed_time": 15.973488,
+    "median_power": 11.891088,
+    "median_energy_consumed": 190.45163,
+    "average_elapsed_time": 15.923717199999999,
+    "average_power": 11.8840052,
+    "average_energy_consumed": 189.2403656
+  },
+  "com.google.gson.functional.Java17RecordTest#testMultipleNamesDeserializedCorrectly": {
+    "loc": "6",
+    "median_elapsed_time": 14.973965,
+    "median_power": 11.834304,
+    "median_energy_consumed": 176.435776,
+    "average_elapsed_time": 14.900333,
+    "average_power": 11.845928399999998,
+    "average_energy_consumed": 176.5054048
+  },
+  "com.google.gson.JsonArrayTest#testSet": {
+    "loc": "22",
+    "median_elapsed_time": 16.086999,
+    "median_power": 11.837547,
+    "median_energy_consumed": 190.430603,
+    "average_elapsed_time": 16.3182758,
+    "average_power": 11.914508399999999,
+    "average_energy_consumed": 194.5096282
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockInaccessibleJavaExtendingJdkClass": {
+    "loc": "10",
+    "median_elapsed_time": 16.061389,
+    "median_power": 11.874076,
+    "median_energy_consumed": 190.714157,
+    "average_elapsed_time": 16.133937200000002,
+    "average_power": 11.878941999999999,
+    "average_energy_consumed": 191.6597352
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeGenericArraysSerialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.195323,
+    "median_power": 11.924093,
+    "median_energy_consumed": 192.376633,
+    "average_elapsed_time": 16.310822199999997,
+    "average_power": 11.899316,
+    "average_energy_consumed": 194.10211479999998
+  },
+  "com.google.gson.JsonObjectTest#testAddingStringProperties": {
+    "loc": "10",
+    "median_elapsed_time": 15.892806,
+    "median_power": 11.879763,
+    "median_energy_consumed": 189.09581,
+    "average_elapsed_time": 15.936363599999998,
+    "average_power": 11.8888204,
+    "average_energy_consumed": 189.465204
+  },
+  "com.google.gson.functional.Java17RecordTest#testEmptyRecord": {
+    "loc": "7",
+    "median_elapsed_time": 14.543588,
+    "median_power": 11.793742,
+    "median_energy_consumed": 172.195892,
+    "average_elapsed_time": 14.586624599999999,
+    "average_power": 11.806519600000001,
+    "average_energy_consumed": 172.21618039999998
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testDeserializationWithMultipleTypes": {
+    "loc": "14",
+    "median_elapsed_time": 15.553339,
+    "median_power": 11.865527,
+    "median_energy_consumed": 185.282227,
+    "average_elapsed_time": 15.559105200000001,
+    "average_power": 11.880336,
+    "average_energy_consumed": 184.846933
+  },
+  "com.google.gson.FieldNamingPolicyTest#testSeparateCamelCase": {
+    "loc": "6",
+    "median_elapsed_time": 16.064749,
+    "median_power": 11.880081,
+    "median_energy_consumed": 191.902054,
+    "average_elapsed_time": 16.0456986,
+    "average_power": 11.9122792,
+    "average_energy_consumed": 191.14519360000003
+  },
+  "com.google.gson.JsonArrayTest#testGetAs_WrongArraySize": {
+    "loc": "19",
+    "median_elapsed_time": 16.049331,
+    "median_power": 11.928638,
+    "median_energy_consumed": 191.324615,
+    "average_elapsed_time": 16.0275446,
+    "average_power": 11.923538800000001,
+    "average_energy_consumed": 191.1044554
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipNestedStructures": {
+    "loc": "7",
+    "median_elapsed_time": 15.7703,
+    "median_power": 11.849765,
+    "median_energy_consumed": 186.817459,
+    "average_elapsed_time": 15.814433,
+    "average_power": 11.8359046,
+    "average_energy_consumed": 187.17851260000003
+  },
+  "com.google.gson.internal.StreamsTest#testWriterForAppendable": {
+    "loc": "2",
+    "median_elapsed_time": 15.859386,
+    "median_power": 11.88897,
+    "median_energy_consumed": 188.162216,
+    "average_elapsed_time": 15.947820799999999,
+    "average_power": 11.887352,
+    "average_energy_consumed": 189.58402399999997
+  },
+  "com.google.gson.internal.ConstructorConstructorTest#testGet_AbstractClassNoArgConstructor": {
+    "loc": "10",
+    "median_elapsed_time": 15.861567,
+    "median_power": 11.932864,
+    "median_energy_consumed": 189.38945,
+    "average_elapsed_time": 15.905387200000002,
+    "average_power": 11.912627400000002,
+    "average_energy_consumed": 189.47048339999998
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testVariableTypeFieldsAndGenericArraysDeserialization": {
+    "loc": "15",
+    "median_elapsed_time": 15.962686,
+    "median_power": 11.866348,
+    "median_energy_consumed": 188.783127,
+    "average_elapsed_time": 16.1844212,
+    "average_power": 11.902016800000002,
+    "average_energy_consumed": 192.6916566
+  },
+  "com.google.gson.JsonArrayAsListTest#testAdd": {
+    "loc": "37",
+    "median_elapsed_time": 15.865809,
+    "median_power": 11.836645,
+    "median_energy_consumed": 188.827408,
+    "average_elapsed_time": 15.9676012,
+    "average_power": 11.888842,
+    "average_energy_consumed": 189.8557496
+  },
+  "com.google.gson.stream.JsonReaderPathTest#objectOfObjects": {
+    "loc": "45",
+    "median_elapsed_time": 15.964113,
+    "median_power": 11.88357,
+    "median_energy_consumed": 190.633545,
+    "average_elapsed_time": 16.005782399999998,
+    "average_power": 11.8716046,
+    "average_energy_consumed": 190.0116362
+  },
+  "com.google.gson.functional.Java17RecordTest#testClassReflectionFilter": {
+    "loc": "10",
+    "median_elapsed_time": 14.735061,
+    "median_power": 11.887269,
+    "median_energy_consumed": 175.159637,
+    "average_elapsed_time": 14.8016346,
+    "average_power": 11.903962600000002,
+    "average_energy_consumed": 176.2032014
+  },
+  "com.google.gson.JsonObjectAsMapTest#testKeySet": {
+    "loc": "17",
+    "median_elapsed_time": 15.785378,
+    "median_power": 11.871258,
+    "median_energy_consumed": 187.289215,
+    "average_elapsed_time": 15.851772399999998,
+    "average_power": 11.8748356,
+    "average_energy_consumed": 188.2389252
+  },
+  "com.google.gson.JsonArrayTest#testIntegerPrimitiveAddition": {
+    "loc": "15",
+    "median_elapsed_time": 15.96538,
+    "median_power": 11.929903,
+    "median_energy_consumed": 190.465439,
+    "average_elapsed_time": 16.0032304,
+    "average_power": 11.915344600000001,
+    "average_energy_consumed": 190.6932618
+  },
+  "com.google.gson.functional.Java17RecordTest#testStaticFieldDeserialization": {
+    "loc": "14",
+    "median_elapsed_time": 14.669418,
+    "median_power": 11.88133,
+    "median_energy_consumed": 173.674774,
+    "average_elapsed_time": 14.897088400000001,
+    "average_power": 11.9261422,
+    "average_energy_consumed": 177.725174
+  },
+  "com.google.gson.JsonArrayTest#testStringPrimitiveAddition": {
+    "loc": "9",
+    "median_elapsed_time": 15.867809,
+    "median_power": 11.887775,
+    "median_energy_consumed": 188.999481,
+    "average_elapsed_time": 15.896294399999999,
+    "average_power": 11.8965354,
+    "average_energy_consumed": 189.1151398
+  },
+  "com.google.gson.JsonArrayAsListTest#testToArray": {
+    "loc": "14",
+    "median_elapsed_time": 15.989434,
+    "median_power": 11.902798,
+    "median_energy_consumed": 190.889618,
+    "average_elapsed_time": 16.1159726,
+    "average_power": 11.898281800000001,
+    "average_energy_consumed": 191.761432
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedGsonMixingSinceAndUntilSerialization": {
+    "loc": "15",
+    "median_elapsed_time": 15.979776,
+    "median_power": 11.886306,
+    "median_energy_consumed": 190.508301,
+    "average_elapsed_time": 16.0738406,
+    "average_power": 11.892968999999999,
+    "average_energy_consumed": 191.166394
+  },
+  "com.google.gson.JsonArrayTest#testFailedGetArrayValues": {
+    "loc": "62",
+    "median_elapsed_time": 16.353251,
+    "median_power": 11.89096,
+    "median_energy_consumed": 193.78624,
+    "average_elapsed_time": 16.187039,
+    "average_power": 12.013705,
+    "average_energy_consumed": 194.5117586
+  },
+  "com.google.gson.stream.JsonReaderPathTest#path": {
+    "loc": "56",
+    "median_elapsed_time": 16.07595,
+    "median_power": 11.893215,
+    "median_energy_consumed": 191.044205,
+    "average_elapsed_time": 16.1866718,
+    "average_power": 11.8949304,
+    "average_energy_consumed": 192.5488254
+  },
+  "com.google.gson.JsonArrayAsListTest#testAddAll": {
+    "loc": "22",
+    "median_elapsed_time": 15.866478,
+    "median_power": 11.822864,
+    "median_energy_consumed": 186.852005,
+    "average_elapsed_time": 15.8363986,
+    "average_power": 11.818337199999998,
+    "average_energy_consumed": 187.16005239999998
+  },
+  "com.google.gson.JsonArrayAsListTest#testGet": {
+    "loc": "20",
+    "median_elapsed_time": 15.951332,
+    "median_power": 11.893322,
+    "median_energy_consumed": 189.005951,
+    "average_elapsed_time": 15.9279652,
+    "average_power": 11.8859826,
+    "average_energy_consumed": 189.31971439999998
+  },
+  "com.google.gson.functional.Java17RecordTest#testPrimitiveJsonNullValue": {
+    "loc": "5",
+    "median_elapsed_time": 14.871709,
+    "median_power": 11.862367,
+    "median_energy_consumed": 175.051285,
+    "average_elapsed_time": 14.8388692,
+    "average_power": 11.852373400000001,
+    "average_energy_consumed": 175.873172
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testDelegation": {
+    "loc": "24",
+    "median_elapsed_time": 16.113954,
+    "median_power": 11.882194,
+    "median_energy_consumed": 190.138672,
+    "average_elapsed_time": 16.232138,
+    "average_power": 11.911038600000001,
+    "average_energy_consumed": 193.36386699999997
+  },
+  "com.google.gson.functional.Java17RecordTest#testJsonAdapterAnnotation": {
+    "loc": "24",
+    "median_elapsed_time": 14.95518,
+    "median_power": 11.862465,
+    "median_energy_consumed": 177.405289,
+    "average_elapsed_time": 15.4399758,
+    "average_power": 11.9401184,
+    "average_energy_consumed": 184.53640140000002
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava8": {
+    "loc": "9",
+    "median_elapsed_time": 16.004248,
+    "median_power": 11.91973,
+    "median_energy_consumed": 190.107224,
+    "average_elapsed_time": 15.9555398,
+    "average_power": 11.8995458,
+    "average_energy_consumed": 189.8644594
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testDeserializeListOfLists": {
+    "loc": "15",
+    "median_elapsed_time": 15.577143,
+    "median_power": 11.811541,
+    "median_energy_consumed": 183.990067,
+    "average_elapsed_time": 15.567891199999996,
+    "average_power": 11.8452478,
+    "average_energy_consumed": 184.40332360000002
+  },
+  "com.google.gson.JsonArrayTest#testEqualsNonEmptyArray": {
+    "loc": "16",
+    "median_elapsed_time": 16.006619,
+    "median_power": 11.868425,
+    "median_energy_consumed": 190.216019,
+    "average_elapsed_time": 16.052772,
+    "average_power": 11.8685788,
+    "average_energy_consumed": 190.5271302
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateFormatWithTimezone": {
+    "loc": "7",
+    "median_elapsed_time": 16.144137,
+    "median_power": 11.899885,
+    "median_energy_consumed": 192.113373,
+    "average_elapsed_time": 16.1017818,
+    "average_power": 11.873782799999999,
+    "average_energy_consumed": 191.196939
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeWithVariableTypeDeserialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.161644,
+    "median_power": 11.901643,
+    "median_energy_consumed": 191.270264,
+    "average_elapsed_time": 16.361348,
+    "average_power": 11.9643576,
+    "average_energy_consumed": 195.831473
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseSpecialTimezone": {
+    "loc": "8",
+    "median_elapsed_time": 16.083308,
+    "median_power": 11.894107,
+    "median_energy_consumed": 191.820129,
+    "average_elapsed_time": 16.0861202,
+    "average_power": 11.8880312,
+    "average_energy_consumed": 191.2325378
+  },
+  "com.google.gson.JsonObjectTest#testDeepCopy": {
+    "loc": "9",
+    "median_elapsed_time": 15.938834,
+    "median_power": 11.900669,
+    "median_energy_consumed": 188.974335,
+    "average_elapsed_time": 16.024441,
+    "average_power": 11.886375999999998,
+    "average_energy_consumed": 190.4876374
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testDeepParameterizedTypeSerialization": {
+    "loc": "6",
+    "median_elapsed_time": 16.170356,
+    "median_power": 11.919683,
+    "median_energy_consumed": 192.805832,
+    "average_elapsed_time": 16.116911799999997,
+    "average_power": 11.906758,
+    "average_energy_consumed": 191.9048158
+  },
+  "com.google.gson.JsonObjectAsMapTest#testEqualsHashCode": {
+    "loc": "8",
+    "median_elapsed_time": 15.946104,
+    "median_power": 11.857727,
+    "median_energy_consumed": 188.481979,
+    "average_elapsed_time": 15.972362,
+    "average_power": 11.842884000000002,
+    "average_energy_consumed": 189.15902419999998
+  },
+  "com.google.gson.GsonBuilderTest#testModificationAfterCreate": {
+    "loc": "28",
+    "median_elapsed_time": 16.079516,
+    "median_power": 11.837602,
+    "median_energy_consumed": 190.342911,
+    "average_elapsed_time": 16.0766222,
+    "average_power": 11.843832600000002,
+    "average_energy_consumed": 190.40546879999997
+  },
+  "com.google.gson.JsonObjectTest#testKeySet": {
+    "loc": "23",
+    "median_elapsed_time": 16.095471,
+    "median_power": 11.892652,
+    "median_energy_consumed": 191.417831,
+    "average_elapsed_time": 16.256747999999998,
+    "average_power": 11.963599799999999,
+    "average_energy_consumed": 194.53837560000002
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedClassesSerialization": {
+    "loc": "6",
+    "median_elapsed_time": 15.978153,
+    "median_power": 11.857805,
+    "median_energy_consumed": 188.386032,
+    "average_elapsed_time": 16.0236852,
+    "average_power": 11.8286564,
+    "average_energy_consumed": 189.54482420000002
+  },
+  "com.google.gson.FieldNamingPolicyTest#testUpperCaseFirstLetter": {
+    "loc": "6",
+    "median_elapsed_time": 15.79031,
+    "median_power": 11.865471,
+    "median_energy_consumed": 187.359467,
+    "average_elapsed_time": 15.930280399999997,
+    "average_power": 11.893022400000001,
+    "average_energy_consumed": 189.4834048
+  },
+  "com.google.gson.functional.Java17RecordTest#testPrimitiveAdapterNullValue": {
+    "loc": "15",
+    "median_elapsed_time": 14.649715,
+    "median_power": 11.90287,
+    "median_energy_consumed": 175.069626,
+    "average_elapsed_time": 14.902293400000001,
+    "average_power": 11.902297800000001,
+    "average_energy_consumed": 177.3852172
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testDeepParameterizedTypeDeserialization": {
+    "loc": "8",
+    "median_elapsed_time": 16.071751,
+    "median_power": 11.905381,
+    "median_energy_consumed": 191.052338,
+    "average_elapsed_time": 16.001881,
+    "average_power": 11.898984,
+    "average_energy_consumed": 190.4078614
+  },
+  "com.google.gson.functional.VersioningTest#testIgnoreLaterVersionClassDeserialization": {
+    "loc": "6",
+    "median_elapsed_time": 15.862809,
+    "median_power": 11.862618,
+    "median_energy_consumed": 188.251297,
+    "average_elapsed_time": 15.874295,
+    "average_power": 11.8585186,
+    "average_energy_consumed": 188.2460814
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeWithReaderDeserialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.366817,
+    "median_power": 11.945612,
+    "median_energy_consumed": 195.511642,
+    "average_elapsed_time": 16.5198232,
+    "average_power": 11.964032399999999,
+    "average_energy_consumed": 197.67917780000002
+  },
+  "com.google.gson.functional.Java17RecordTest#testReflectionFilterBlockInaccessible": {
+    "loc": "9",
+    "median_elapsed_time": 14.840355,
+    "median_power": 11.833489,
+    "median_energy_consumed": 175.61319,
+    "average_elapsed_time": 14.801218799999997,
+    "average_power": 11.834900000000001,
+    "average_energy_consumed": 175.1747284
+  },
+  "com.google.gson.functional.Java17RecordTest#testRecordNull": {
+    "loc": "7",
+    "median_elapsed_time": 14.762766,
+    "median_power": 11.802418,
+    "median_energy_consumed": 174.699402,
+    "average_elapsed_time": 14.8443888,
+    "average_power": 11.8220606,
+    "average_energy_consumed": 175.5056672
+  },
+  "com.google.gson.functional.Java17RecordTest#testStaticFieldSerialization": {
+    "loc": "6",
+    "median_elapsed_time": 14.836052,
+    "median_power": 11.850222,
+    "median_energy_consumed": 175.711121,
+    "average_elapsed_time": 14.8598926,
+    "average_power": 11.867215999999999,
+    "average_energy_consumed": 176.34876100000002
+  },
+  "com.google.gson.functional.Java17RecordTest#testThrowingAccessor": {
+    "loc": "7",
+    "median_elapsed_time": 14.841608,
+    "median_power": 11.908344,
+    "median_energy_consumed": 176.190582,
+    "average_elapsed_time": 14.715398200000001,
+    "average_power": 11.910525,
+    "average_energy_consumed": 175.2707704
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testDeserializationDirectSelfReference": {
+    "loc": "9",
+    "median_elapsed_time": 15.751531,
+    "median_power": 11.87051,
+    "median_energy_consumed": 186.891846,
+    "average_elapsed_time": 15.6480356,
+    "average_power": 11.880936799999999,
+    "average_energy_consumed": 185.9141632
+  },
+  "com.google.gson.internal.bind.util.ISO8601UtilsTest#testDateParseWithTimezone": {
+    "loc": "8",
+    "median_elapsed_time": 15.950701,
+    "median_power": 11.867999,
+    "median_energy_consumed": 189.287979,
+    "average_elapsed_time": 15.945703,
+    "average_power": 11.8701952,
+    "average_energy_consumed": 189.27814320000002
+  },
+  "com.google.gson.VersionExclusionStrategyTest#testSameVersion": {
+    "loc": "9",
+    "median_elapsed_time": 15.865382,
+    "median_power": 11.894656,
+    "median_energy_consumed": 188.708527,
+    "average_elapsed_time": 15.9150532,
+    "average_power": 11.877359799999999,
+    "average_energy_consumed": 189.0265472
+  },
+  "com.google.gson.JsonObjectTest#testWritePropertyWithEmptyStringName": {
+    "loc": "5",
+    "median_elapsed_time": 16.044217,
+    "median_power": 11.877227,
+    "median_energy_consumed": 189.740158,
+    "average_elapsed_time": 16.043682,
+    "average_power": 11.858010799999999,
+    "average_energy_consumed": 190.2461882
+  },
+  "com.google.gson.JsonArrayTest#testDoublePrimitiveAddition": {
+    "loc": "14",
+    "median_elapsed_time": 16.087519,
+    "median_power": 11.929285,
+    "median_energy_consumed": 192.471268,
+    "average_elapsed_time": 16.095869600000004,
+    "average_power": 11.930100000000001,
+    "average_energy_consumed": 192.0323548
+  },
+  "com.google.gson.functional.Java17RecordTest#testAccessorIsCalled": {
+    "loc": "6",
+    "median_elapsed_time": 14.60315,
+    "median_power": 11.90638,
+    "median_energy_consumed": 173.870651,
+    "average_elapsed_time": 14.626178200000002,
+    "average_power": 11.8722798,
+    "average_energy_consumed": 173.64833979999997
+  },
+  "com.google.gson.functional.Java17RecordTest#testMultipleNamesInTheSameString": {
+    "loc": "3",
+    "median_elapsed_time": 14.658425,
+    "median_power": 11.799242,
+    "median_energy_consumed": 172.809769,
+    "average_elapsed_time": 14.5960532,
+    "average_power": 11.8292276,
+    "average_energy_consumed": 172.6593936
+  },
+  "com.google.gson.internal.ConstructorConstructorTest#testGet_Interface": {
+    "loc": "10",
+    "median_elapsed_time": 16.014342,
+    "median_power": 11.91972,
+    "median_energy_consumed": 190.671692,
+    "average_elapsed_time": 16.0653902,
+    "average_power": 11.9706338,
+    "average_energy_consumed": 192.3512086
+  },
+  "com.google.gson.functional.Java17RecordTest#testConstructorRuns": {
+    "loc": "13",
+    "median_elapsed_time": 14.762871,
+    "median_power": 11.838021,
+    "median_energy_consumed": 174.763184,
+    "average_elapsed_time": 14.7882622,
+    "average_power": 11.835170199999999,
+    "average_energy_consumed": 175.0228942
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testTypesWithMultipleParametersDeserialization": {
+    "loc": "9",
+    "median_elapsed_time": 16.078095,
+    "median_power": 11.897736,
+    "median_energy_consumed": 192.459854,
+    "average_elapsed_time": 16.0989838,
+    "average_power": 11.898981000000001,
+    "average_energy_consumed": 191.5570526
+  },
+  "com.google.gson.JsonArrayAsListTest#testViewUpdates": {
+    "loc": "10",
+    "median_elapsed_time": 15.977821,
+    "median_power": 11.830392,
+    "median_energy_consumed": 188.717743,
+    "average_elapsed_time": 15.917882200000003,
+    "average_power": 11.8489772,
+    "average_energy_consumed": 188.606235
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testParameterizedTypeDeserialization": {
+    "loc": "12",
+    "median_elapsed_time": 16.09154,
+    "median_power": 11.865982,
+    "median_energy_consumed": 191.925797,
+    "average_elapsed_time": 16.1082802,
+    "average_power": 11.878217000000001,
+    "average_energy_consumed": 191.3375092
+  },
+  "com.google.gson.internal.JavaVersionTest#testJava6": {
+    "loc": "3",
+    "median_elapsed_time": 16.080449,
+    "median_power": 11.867108,
+    "median_energy_consumed": 190.764847,
+    "average_elapsed_time": 16.2260962,
+    "average_power": 11.8651366,
+    "average_energy_consumed": 192.538022
+  },
+  "com.google.gson.functional.ReflectionAccessTest#testSerializeInternalImplementationObject": {
+    "loc": "16",
+    "median_elapsed_time": 16.069015,
+    "median_power": 11.855644,
+    "median_energy_consumed": 191.85791,
+    "average_elapsed_time": 16.119104200000002,
+    "average_power": 11.877287800000001,
+    "average_energy_consumed": 191.44622180000002
+  },
+  "com.google.gson.stream.JsonReaderPathTest#skipObjectValues": {
+    "loc": "13",
+    "median_elapsed_time": 15.961405,
+    "median_power": 11.842041,
+    "median_energy_consumed": 188.244324,
+    "average_elapsed_time": 16.3220028,
+    "average_power": 11.899799400000001,
+    "average_energy_consumed": 194.3854554
+  },
+  "com.google.gson.TypeAdapterTest#testFromJson_Reader_TrailingData": {
+    "loc": "3",
+    "median_elapsed_time": 15.99664,
+    "median_power": 11.864449,
+    "median_energy_consumed": 189.878265,
+    "average_elapsed_time": 16.0104458,
+    "average_power": 11.8613712,
+    "average_energy_consumed": 189.906433
+  },
+  "com.google.gson.functional.VersioningTest#testVersionedGsonWithUnversionedClassesSerialization": {
+    "loc": "5",
+    "median_elapsed_time": 16.179898,
+    "median_power": 11.870034,
+    "median_energy_consumed": 191.286179,
+    "average_elapsed_time": 16.2175548,
+    "average_power": 11.873074599999999,
+    "average_energy_consumed": 192.56104119999998
+  },
+  "com.google.gson.internal.JavaVersionTest#testGetMajorJavaVersion": {
+    "loc": "3",
+    "median_elapsed_time": 15.948349,
+    "median_power": 11.920437,
+    "median_energy_consumed": 190.111282,
+    "average_elapsed_time": 16.1675274,
+    "average_power": 11.928079400000001,
+    "average_energy_consumed": 192.90158979999998
+  },
+  "com.google.gson.JsonObjectTest#testAddingAndRemovingObjectProperties": {
+    "loc": "14",
+    "median_elapsed_time": 15.976484,
+    "median_power": 11.815506,
+    "median_energy_consumed": 188.770233,
+    "average_elapsed_time": 15.9280944,
+    "average_power": 11.848744199999999,
+    "average_energy_consumed": 188.734787
+  },
+  "com.google.gson.functional.Java17RecordTest#testSerializedNameOnAccessor": {
+    "loc": "11",
+    "median_elapsed_time": 14.941671,
+    "median_power": 11.91943,
+    "median_energy_consumed": 176.949615,
+    "average_elapsed_time": 14.9191948,
+    "average_power": 11.8833276,
+    "average_energy_consumed": 177.293643
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockAllCollectionInterface": {
+    "loc": "10",
+    "median_elapsed_time": 16.061879,
+    "median_power": 11.866195,
+    "median_energy_consumed": 190.294235,
+    "average_elapsed_time": 16.235617,
+    "average_power": 11.887443999999999,
+    "average_energy_consumed": 193.02658680000002
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockAllJava": {
+    "loc": "10",
+    "median_elapsed_time": 16.113476,
+    "median_power": 11.909075,
+    "median_energy_consumed": 191.190186,
+    "average_elapsed_time": 16.344306,
+    "average_power": 11.9375378,
+    "average_energy_consumed": 195.1612032
+  },
+  "com.google.gson.functional.ReflectionAccessFilterTest#testBlockInaccessibleJava": {
+    "loc": "21",
+    "median_elapsed_time": 16.047858,
+    "median_power": 11.857229,
+    "median_energy_consumed": 190.17807,
+    "average_elapsed_time": 16.098021600000003,
+    "average_power": 11.866696399999999,
+    "average_energy_consumed": 191.03492119999999
+  },
+  "com.google.gson.functional.ReflectionAccessTest#testRestrictiveSecurityManager": {
+    "loc": "46",
+    "median_elapsed_time": 15.98205,
+    "median_power": 11.819229,
+    "median_energy_consumed": 189.567596,
+    "average_elapsed_time": 16.0258892,
+    "average_power": 11.8262096,
+    "average_energy_consumed": 189.5237394
+  },
+  "com.google.gson.ObjectTypeAdapterParameterizedTest#testReadWrite": {
+    "loc": "5",
+    "median_elapsed_time": 15.902403,
+    "median_power": 11.793221,
+    "median_energy_consumed": 188.063126,
+    "average_elapsed_time": 15.864707,
+    "average_power": 11.813588200000002,
+    "average_energy_consumed": 187.421921
+  },
+  "com.google.gson.JsonArrayAsListTest#testSet": {
+    "loc": "28",
+    "median_elapsed_time": 15.874734,
+    "median_power": 11.865574,
+    "median_energy_consumed": 188.232117,
+    "average_elapsed_time": 15.874964,
+    "average_power": 11.87274,
+    "average_energy_consumed": 188.47807939999998
+  },
+  "com.google.gson.functional.ParameterizedTypesTest#testVariableTypeFieldsAndGenericArraysSerialization": {
+    "loc": "14",
+    "median_elapsed_time": 16.364741,
+    "median_power": 11.942744,
+    "median_energy_consumed": 195.439911,
+    "average_elapsed_time": 16.5293406,
+    "average_power": 11.914829600000001,
+    "average_energy_consumed": 196.9673706
+  },
+  "com.google.gson.graph.GraphAdapterBuilderTest#testSerializeListOfLists": {
+    "loc": "16",
+    "median_elapsed_time": 15.528981,
+    "median_power": 11.89149,
+    "median_energy_consumed": 184.541061,
+    "average_elapsed_time": 15.4788744,
+    "average_power": 11.8975116,
+    "average_energy_consumed": 184.16522200000003
+  },
+  "com.google.gson.JsonArrayTest#testEqualsOnEmptyArray": {
+    "loc": "3",
+    "median_elapsed_time": 15.887252,
+    "median_power": 11.84661,
+    "median_energy_consumed": 187.688065,
+    "average_elapsed_time": 15.898749200000001,
+    "average_power": 11.8374606,
+    "average_energy_consumed": 188.20420560000002
+  },
+  "com.google.gson.internal.bind.Java17ReflectiveTypeAdapterFactoryTest#testSerializeRecords": {
+    "loc": "10",
+    "median_elapsed_time": 14.778384,
+    "median_power": 11.896424,
+    "median_energy_consumed": 175.809921,
+    "average_elapsed_time": 14.788797399999998,
+    "average_power": 11.8727806,
+    "average_energy_consumed": 175.5867948
+  }
+}

@@ -25,12 +25,12 @@ def compute_correlation_energy_vs_test_smell(file_name):
     # mut_scores = np.array(data['mut_score'].tolist())
 
     # calculate correlation coefficient and p-value between x and y
-    r_E_vs_LOC, p_E_vs_LOC = kendalltau(data['ESLoc'].tolist(), data['ET'].tolist())
+    r_E_vs_LOC, p_E_vs_LOC = pearsonr(data['ESLoc'].tolist(), data['ET'].tolist())
     print(r_E_vs_LOC, p_E_vs_LOC)
-    r_P_vs_LOC, p_P_vs_LOC = kendalltau(data['PSLoc'].tolist(), data['ET'].tolist())
+    r_P_vs_LOC, p_P_vs_LOC = pearsonr(data['PSLoc'].tolist(), data['ET'].tolist())
     print(r_P_vs_LOC, p_P_vs_LOC)
 
 
 if __name__ == '__main__':
-    energy_smell_pairs_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/gson/gson-energy-smell-pair.csv"
+    energy_smell_pairs_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-energy-smell-testcase-tuple.csv"
     compute_correlation_energy_vs_test_smell(energy_smell_pairs_save_path)
