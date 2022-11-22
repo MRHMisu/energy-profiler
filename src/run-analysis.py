@@ -1,3 +1,5 @@
+import json
+
 from src.energy_log_processor import generate_median_energy_result_json
 from src.energy_smell_pair_map_processor import generate_energy_smell_pairs_in_csv
 
@@ -24,11 +26,13 @@ def run_analysis(projects_map, input_path, output_path):
     # run_correlation_analyzer()
 
 
+def load_json(file):
+    with open(file, 'r') as j:
+        return json.loads(j.read())
+
+
 if __name__ == '__main__':
-    projects = {
-        'jsoup': "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/",
-        "gson": "/Users/mrhmisu/.jnose_projects/gson/gson/src/main/java/"}
-    # projects ={}
+    projects = load_json('projects.json')
     user_base_path = "/Users/mrhmisu"
     input_base_path = user_base_path + "/energy-profiler-experiment/dataset"
     output_base_path = user_base_path + "/Repositories/test-smells/energy-profiler/output"
