@@ -1,0 +1,23 @@
+{
+  'Assertion Roulette': "AR",
+  'Eager Test': "ET",
+  'Mystery Guest': "MG",
+  'Sleepy Test': "ST",
+  'Unknown Test': "UT",
+  'Redundant Assertion': "RA",
+  'Dependent Test': "DepT",
+  'Magic Number Test': "MNT",
+  'Conditional Test Logic': "CTL",
+  'EmptyTest': "EmT",
+  'General Fixture': "GF",
+  'IgnoredTest': "IgT",
+  'Sensitive Equality': "SE",
+  'Verbose Test': "VT",
+  'Default Test': "DT",
+  'Resource Optimism': "RO",
+  'Duplicate Assert': "DA",
+  'Exception Catching Throwing': "EH",
+  'Constructor Initialization': "CI",
+  'Print Statement': "RP",
+  'Lazy Test': "LT"
+}

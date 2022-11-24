@@ -180,11 +180,11 @@ def generate_testcase_and_smell_count_json(smell_path, project_prefix, output_ma
     save_to_json(test_case_map, output_map_file)
 
 
-if __name__ == '__main__':
-    project_prefix_path = "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/"
-    smell_by_testsmell = "/Users/mrhmisu/energy-test/dataset/smell/jsoup/jsoup-smell-by-testsmell.csv"
-    output_smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-testcase-smell-map.json"
-    generate_testcase_and_smell_count_json(smell_by_testsmell, project_prefix_path, output_smell_map_file)
-    # testclasss_case_map = process_report(smell_by_testsmell, project_prefix_path)
-    # testcase_map = class_to_testcase_map_transform(testclasss_case_map)
-    # save_to_json(testcase_map, output_smell_map_file)
+# if __name__ == '__main__':
+#     project_prefix_path = "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/"
+#     smell_by_testsmell = "/Users/mrhmisu/energy-test/dataset/smell/jsoup/jsoup-smell-by-testsmell.csv"
+#     output_smell_map_file = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/jsoup/jsoup-testcase-smell-map.json"
+#     generate_testcase_and_smell_count_json(smell_by_testsmell, project_prefix_path, output_smell_map_file)
+#     # testclasss_case_map = process_report(smell_by_testsmell, project_prefix_path)
+#     # testcase_map = class_to_testcase_map_transform(testclasss_case_map)
+#     # save_to_json(testcase_map, output_smell_map_file)

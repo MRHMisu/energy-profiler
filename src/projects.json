@@ -9,6 +9,9 @@
   "commons-email": "/Users/mrhmisu/.jnose_projects/commons-email/src/main/java/",
   "commons-lang": "/Users/mrhmisu/.jnose_projects/commons-lang/src/main/java/",
   "commons-text": "/Users/mrhmisu/.jnose_projects/commons-text/src/main/java/",
+  "commons-bcel": "/Users/mrhmisu/.jnose_projects/commons-bcel/src/main/java/",
+  "commons-fileupload": "/Users/mrhmisu/.jnose_projects/commons-fileupload/src/main/java/",
+  "commons-imaging": "/Users/mrhmisu/.jnose_projects/commons-imaging/src/main/java/",
   "gson": "/Users/mrhmisu/.jnose_projects/gson/gson/src/main/java/",
   "jsoup": "/Users/mrhmisu/.jnose_projects/jsoup/src/main/java/"
 }

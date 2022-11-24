@@ -27,7 +27,7 @@ def write_output_csv(rows, output_file):
         text_file.write(all_content)
 
 
-def compute_correlation_energy_vs_test_smell(data, metrics, save_path):
+def compute_correlation_energy_vs_test_smell(data, correlation_metric, save_path):
     """
        If the p-value is low (generally less than 0.05), then your correlation is statistically significant,
        and you can use the calculated Pearson coefficient. If the p-value is not low (generally higher than 0.05),
@@ -38,14 +38,6 @@ def compute_correlation_energy_vs_test_smell(data, metrics, save_path):
 
     headers = ['TC', 'LOC', 'SC', 'E', 'P', 'T', 'ESLoc', 'PSLoc', 'TSLoc', 'AR', 'ET', 'MG', 'ST', 'UT', 'RA', 'DepT',
                'MNT', 'CTL', 'EmT', 'GF', 'IgT', 'SE', 'VT', 'DT', 'RO', 'DA', 'EH', 'CI', 'RP', 'LT']
-
-    correlation_metric = 'ESLoc'
-    if metrics == "energy":
-        correlation_metric = 'ESLoc'
-    if metrics == "power":
-        correlation_metric = 'PSLoc'
-    if metrics == "time":
-        correlation_metric = 'TSLoc'
 
     r_values = []
     p_values = []
@@ -67,8 +59,8 @@ def load_json(file):
         return json.loads(j.read())
 
 
-def compute_correlation_for_whole_dataset(metric):
-    projects_map = load_json('projects.json')
+def compute_correlation_for_whole_dataset(metric, project_json):
+    projects_map = load_json(project_json)
     user_base_path = "/Users/mrhmisu"
     output_base_path = user_base_path + "/Repositories/test-smells/energy-profiler/output"
     files = []
@@ -77,31 +69,46 @@ def compute_correlation_for_whole_dataset(metric):
         files.append(input_energy_smell_pair_json_path)
 
     frame = pd.concat((pd.read_csv(f) for f in files))
-    compute_correlation_energy_vs_test_smell(frame, metric, "energy-smell-correlation.csv")
+    frame.to_csv(output_base_path + "/" + "correlation-inputs-" + metric + "-smelly.csv", index=False)
+
+    correlation_metric = 'E/SC'
+    if metric == "energy":
+        correlation_metric = 'E/SC'
+    if metric == "power":
+        correlation_metric = 'P/SC'
+    if metric == "time":
+        correlation_metric = 'T/SC'
+
+    compute_correlation_energy_vs_test_smell(frame, correlation_metric,
+                                             output_base_path + "/" + metric + "-E_SC-correlation.csv")
 
 
 def compute_correlation_for_each_project(metric):
     projects_map = load_json('projects.json')
     user_base_path = "/Users/mrhmisu"
     output_base_path = user_base_path + "/Repositories/test-smells/energy-profiler/output"
+
+    correlation_metric = 'E/SC'
+    if metric == "energy":
+        correlation_metric = 'E/SC'
+    if metric == "power":
+        correlation_metric = 'P/SC'
+    if metric == "time":
+        correlation_metric = 'T/SC'
+
     for p in projects_map:
         print("Processing :" + p)
         input_energy_smell_pair_json_path = output_base_path + "/" + p + "/" + p + "-energy-smell-testcase-tuple.csv"
         tuple_data = read_csv(input_energy_smell_pair_json_path)
         output_correlation_save_path = output_base_path + "/" + p + "/" + p + "-" + metric + "-correlation.csv"
-        compute_correlation_energy_vs_test_smell(tuple_data, metric,
+        compute_correlation_energy_vs_test_smell(tuple_data, correlation_metric,
                                                  output_correlation_save_path)
 
 
 if __name__ == '__main__':
-    # energy_smell_pairs_save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/gson/gson-energy-smell-testcase-tuple.csv"
-    # # metrics, Energy, Power and Time
-    # save_path = "/Users/mrhmisu/Repositories/test-smells/energy-profiler/output/gson/correlation_result.csv"
-    # compute_correlation_energy_vs_test_smell(energy_smell_pairs_save_path, "Energy", save_path)
-    # print("")
     met = "energy"
     # met = "power"
     # met = "time"
 
     # compute_correlation_for_each_project(met)
-    compute_correlation_for_whole_dataset(met)
+    compute_correlation_for_whole_dataset(met, "projects.json")
